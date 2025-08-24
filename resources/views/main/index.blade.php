@@ -112,6 +112,159 @@ transform: translateX(-50%);
 }
 
 
+
+  /* body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    } */
+
+    .btn-open {
+      background: #2c3e50;
+      color: #fff;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .btn-open:hover {
+      background: #1a252f;
+    }
+
+   /* Overlay */
+    .overlay {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.6);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      padding: 16px;
+    }
+
+    /* Popup */
+    .popup {
+      background: #fff;
+      border-radius: 16px;
+      max-width: 380px;
+      width: 100%;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+      animation: fadeIn 0.3s ease-in-out;
+      overflow: hidden;
+    }
+
+    .popup-header {
+      position: relative;
+      padding: 12px;
+    }
+
+    .popup-header img {
+      width: 100%;
+      max-width: 320px;
+      height: auto;
+      border-radius: 12px;
+      display: block;
+      margin: 0 auto;
+      object-fit: cover;
+    }
+
+    .popup-header .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #fff;
+      border: none;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    
+
+    .popup-body {
+      padding: 16px;
+      text-align: center;
+    }
+
+    .popup-body h2 {
+      margin: 10px 0;
+      font-size: 20px;
+      color: #2c3e50;
+    }
+
+    .popup-body p {
+      margin: 0 0 12px;
+      color: #555;
+      line-height: 1.5;
+      font-size: 14px;
+    }
+
+    .facilities {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 14px;
+    }
+
+    .facility {
+      background: #f0f0f0;
+      padding: 6px 10px;
+      border-radius: 8px;
+      font-size: 13px;
+      color: #333;
+    }
+
+    .price {
+      font-size: 18px;
+      font-weight: bold;
+      color: #27ae60;
+      margin-bottom: 14px;
+    }
+
+    .btn-book {
+      background: #27ae60;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 15px;
+      width: 100%;
+      transition: 0.3s;
+    }
+
+    .btn-book:hover {
+      background: #1e8449;
+    }
+
+    @keyframes fadeIn {
+      from { transform: scale(0.9); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    /* Responsive HP */
+    @media (max-width: 480px) {
+      .popup {
+        max-width: 95%;
+      }
+      .popup-header img {
+        max-width: 90%;
+      }
+    }
+
+
     </style>
 </head>
 
@@ -199,7 +352,7 @@ transform: translateX(-50%);
                             <div class="p-3" style="max-width: 700px;">
                                 <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">San Sui Hotel</h6>
                                 <h1 class="display-3 text-white mb-4 animated slideInDown" style= "font-family: 'the_seasons_regular';">Your <span class = "seasons_italic">S</span>anctuary of <span class = "seasons_italic">S</span>implicity</h1>
-                                <a href="" id  class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft " id = "togglenavbar1">Our Rooms</a>
+                                <a href="#therooms" id  class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft " id = "togglenavbar1">Our Rooms</a>
                                 {{-- <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a> --}}
                             </div>
                         </div>
@@ -210,7 +363,7 @@ transform: translateX(-50%);
                              <div class="p-3" style="max-width: 700px;">
                                 <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">San Sui Hotel</h6>
                                 <h1 class="display-3 text-white mb-4 animated slideInDown" style= "font-family: 'the_seasons_regular';">Your <span class = "seasons_italic">S</span>anctuary of <span class = "seasons_italic">S</span>implicity</h1>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft " id = "togglenavbar2">Our Rooms</a>
+                                <a href="#therooms" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft " id = "togglenavbar2">Our Rooms</a>
                                 {{-- <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a> --}}
                             </div>
                         </div>
@@ -221,7 +374,7 @@ transform: translateX(-50%);
                              <div class="p-3" style="max-width: 700px;">
                                 <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">San Sui Hotel</h6>
                                 <h1 class="display-3 text-white mb-4 animated slideInDown" style= "font-family: 'the_seasons_regular';">Your <span class = "seasons_italic">S</span>anctuary of <span class = "seasons_italic">S</span>implicity</h1>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft " id = "togglenavbar2">Our Rooms</a>
+                                <a href="#therooms" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft " id = "togglenavbar2">Our Rooms</a>
                                 {{-- <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a> --}}
                             </div>
                         </div>
@@ -333,7 +486,7 @@ transform: translateX(-50%);
                                 </div>
                             </div>
                         </div>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="">Explore More</a>
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="#therooms">Explore More</a>
                     </div>
                     <div class="col-lg-6">
                         <div class="row g-3">
@@ -396,8 +549,8 @@ transform: translateX(-50%);
                                 </ul></p>
                                 <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 180.000 / Malam</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
-                                    <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" href="">Book Now <i class = "fa fa-calendar"></i> </a>
+                                    <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" onclick = "openPopup('standard')" >View Detail</a>
+                                    <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" onclick = "pesan('Standard Room')" >Book Now <i class = "fa fa-calendar"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -431,8 +584,8 @@ transform: translateX(-50%);
                                 <li>Dan lain lain</li>
                                 </ul></p>                             <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 220.000 / Malam</p>
                                <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
-                                    <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" href="">Book Now <i class = "fa fa-calendar"></i> </a>
+                                    <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" onclick = "openPopup('superior')" >View Detail</a>
+                                    <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" onclick = "pesan('Superior Room')">Book Now <i class = "fa fa-calendar"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -467,8 +620,8 @@ transform: translateX(-50%);
                                 <li>Dan lain lain</li>
                                 </ul></p>                                    <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 250.000 / Malam</p>
                               <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
-                                    <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" href="">Book Now <i class = "fa fa-calendar"></i> </a>
+                                    <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" onclick = "openPopup('deluxe')" >View Detail</a>
+                                    <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" onclick = "pesan('Deluxe Room')">Book Now <i class = "fa fa-calendar"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -504,8 +657,8 @@ transform: translateX(-50%);
                                 <li>Dan lain lain</li>
                                 </ul></p>                                 <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 510.000 / Malam</p>
                               <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
-                                    <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" href="">Book Now <i class = "fa fa-calendar"></i> </a>
+                                    <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" onclick = "openPopup('family')" >View Detail</a>
+                                    <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" onclick = "pesan('Family Room')">Book Now <i class = "fa fa-calendar"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -842,10 +995,7 @@ transform: translateX(-50%);
                         <div class="bg-primary rounded p-4" style = "background-color:transparent !important; text-align:center;">
                             
                             <img src = "{{asset('img/logo/logo.png')}}" style = "width:150px;height:150px;">
-                            {{-- <a href="index.html"><h1 class="text-white text-uppercase seasons_regular mb-3">San Sui Hotel</h1></a> --}}
-                            {{-- <p class="text-white mb-0">
-								Download <a class="text-dark fw-medium" href="https://htmlcodex.com/hotel-html-template-pro">Hotelier – Premium Version</a>, build a professional website for your hotel business and grab the attention of new visitors upon your site’s launch.
-							</p> --}}
+                         
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
@@ -854,10 +1004,6 @@ transform: translateX(-50%);
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>081-336-666-660</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>sansui.situbondo@gmail.com</p>
                         <div class="d-flex pt-2">
-                            {{-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> --}}
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
@@ -912,41 +1058,55 @@ transform: translateX(-50%);
 
  @include("support.footer")
 
-<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        Show a second modal and hide this one with the button below.
-      </div>
-      <div class="modal-footer">
-        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        Hide this modal and show the first with the button below.
-      </div>
-      <div class="modal-footer">
-        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
-      </div>
-    </div>
-  </div>
-</div>
+
 {{-- <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a> --}}
 
+
+
+
+  <!-- Overlay & Popup -->
+  <div class="overlay" id="overlay">
+    <div class="popup">
+      <div class="popup-header">
+        <div class="owl-carousel" id = "carousels">
+            
+                       <div class="item"><img class="w-100" src="{{asset('img/kamar/standard_1.jpg')}}" alt="Image" ></div>
+                
+                        <div class="item"><img class="w-100" src="{{asset('img/kamar/twin_1.jpg')}}" alt="Image" ></div>
+        </div>
+        <button class="close-btn" onclick="closePopup()">&times;</button>
+      </div>
+      <div class="popup-body">
+        <h2 id = "judul_modal_detail_kamar">Deluxe Room</h2>
+        {{-- <p>Kamar luas dengan pemandangan kota, dilengkapi dengan tempat tidur king size, AC, dan balkon pribadi.</p> --}}
+        
+        <div class="facilities" id = "fasilitas_modal" >
+          {{-- <div class="facility">🛏 King Bed</div>
+          <div class="facility">🚿 Kamar Mandi Dalam</div>
+          <div class="facility">📺 TV LED</div>
+          <div class="facility">📶 WiFi Gratis</div>
+          <div class="facility">☕ Coffee Maker</div> --}}
+        </div>
+
+        <div class="price" id = "harga_modal_detail_kamar" style = "color:#000000;margin-top:35px;">Rp 850.000 / malam</div>
+        <button class="btn-book background_utama" id = "pesan_modal_detail_kamar">Pesan Sekarang <i class = "fa fa-calendar"></i></button>
+      </div>
+    </div>
+  </div>
+
+
+
  <script>
+let currentIndex = 0;
+    var globalstandard = '<div class = "facility">King / Twin bed</div><div class = "facility">Meja Rias</div><div class = "facility">Toilet</div><div class = "facility">Shower</div><div class = "facility">Ac</div><div class = "facility">32m2</div><br><br>';
+    var globalsuperior = '<div class = "facility">Twin bed</div><div class = "facility">Meja Rias</div><div class = "facility">Toilet</div><div class = "facility">Shower</div><div class = "facility">Ac</div><div class = "facility">32m2</div><div class = "facility"> + Wardrobe</div><br><br>';
+    var globaldeluxe = '<div class = "facility">King bed</div><div class = "facility">Meja Rias</div><div class = "facility">Toilet</div><div class = "facility">Shower</div><div class = "facility">Ac</div><div class = "facility">32m2</div><div class = "facility"> + Wardrobe</div><div class = "facility"> + Single Sofa</div><div class = "facility"> + Kulkas</div><div class = "facility"> + TV</div><br><br>';
+    var globalfamily = '<div class = "facility">2 Bedroom AC </div><div class = "facility">Meja Rias</div><div class = "facility">Toilet</div><div class = "facility">Shower</div><div class = "facility">Ac</div><div class = "facility">32m2</div><div class = "facility"> + Wardrobe</div><div class = "facility"> + Single Sofa</div><div class = "facility"> + Kulkas</div><div class = "facility"> + TV</div><div class = "facility"> + Meja Makan</div><br><br>';
+    var hargastandard = "IDR 180.000";
+    var hargasuperior = "IDR 220.000";
+    var hargadeluxe = "IDR 250.000";
+    var hargafamily = "IDR 510.000";
+
     var tabs = $('.tabs');
 var selector = $('.tabs').find('a').length;
 //var selector = $(".tabs").find(".selector");
@@ -968,6 +1128,24 @@ $(".tabs").on("click","a",function(e){
     "width": activeWidth + "px"
   });
 });
+
+ // kamar carousel
+    $("#carousels").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1000,
+        margin: 25,
+        items:1,
+        dots: false,
+        loop: false,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            768: {
+                items: 1,
+            },
+        },
+    });
 $(function () {
                 $('#date1').datetimepicker({
                     // format: 'L',
@@ -1035,4 +1213,64 @@ $(function () {
 // $('.datetimepicker-input').datepicker({
 //     format: 'dd/mm/yyyy'
 //  });
+
+function pesan(type_kamar){
+      var message = "Halo San Sui Hotel, saya mau tanya tentang Kamar *"+type_kamar+"*" ;
+      var wa_link = "https://wa.me/6281357610403?text="+message;
+      window.open(wa_link, '_blank');
+}
+
+var jenis_pesan_kamar = "";
+function openPopup(type_kamar) {
+    if(type_kamar == "standard"){
+        $("#fasilitas_modal").html("");
+        $("#fasilitas_modal").html(globalstandard);
+        $("#judul_modal_detail_kamar").html("Standard Room");
+        $("#harga_modal_detail_kamar").html(hargastandard + " / Malam");
+        jenis_pesan_kamar = "Standard Room";
+    }
+    else if(type_kamar == "superior"){
+        $("#fasilitas_modal").html("");
+        $("#fasilitas_modal").html(globalsuperior);
+        $("#judul_modal_detail_kamar").html("Superior Room");
+        $("#harga_modal_detail_kamar").html(hargasuperior + " / Malam");
+         jenis_pesan_kamar = "Superior Room";
+    }
+    else if(type_kamar == "deluxe"){
+        $("#fasilitas_modal").html("");
+        $("#fasilitas_modal").html(globaldeluxe);
+        $("#judul_modal_detail_kamar").html("Deluxe Room");
+        $("#harga_modal_detail_kamar").html(hargadeluxe + " / Malam");
+         jenis_pesan_kamar = "Deluxe Room";
+    }
+     else if(type_kamar == "family"){
+        $("#fasilitas_modal").html("");
+        $("#fasilitas_modal").html(globalfamily);
+        $("#judul_modal_detail_kamar").html("Family Room");
+        $("#harga_modal_detail_kamar").html(hargafamily + " / Malam");
+         jenis_pesan_kamar = "Family Room";
+    }
+      document.getElementById("overlay").style.display = "flex";
+      
+    }
+    $("#pesan_modal_detail_kamar").click(function (e) { 
+        e.preventDefault();
+        pesan(jenis_pesan_kamar);
+    });
+
+    function closePopup() {
+      document.getElementById("overlay").style.display = "none";
+    }
+
+      function showSlide(index) {
+      const images = document.getElementById("carouselImages");
+      const totalSlides = images.children.length;
+      if (index >= totalSlides) currentIndex = 0;
+      else if (index < 0) currentIndex = totalSlides - 1;
+      else currentIndex = index;
+      images.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+    function nextSlide() { showSlide(currentIndex + 1); }
+    function prevSlide() { showSlide(currentIndex - 1); }
+    
  </script>

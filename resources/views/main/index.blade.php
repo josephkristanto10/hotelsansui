@@ -91,10 +91,27 @@ transform: translateX(-50%);
     
 }
 
-/* ketika aktif, muncul */
-    /* #navs.show {
-      transform: translateY(0) !important;
-    } */
+.facilities-item:hover  {
+  background: #a6833d !important;
+  color:white !important;
+
+  
+}
+
+.facilities-item:hover h5  {
+  /* background: #a6833d !important; */
+  color:white !important;
+
+  
+}
+.facilities-item {
+ border-radius : 10px !important;
+}
+.facilities-item:hover {
+ transition: .5s;
+}
+
+
     </style>
 </head>
 
@@ -301,8 +318,8 @@ transform: translateX(-50%);
                                 <div class="border rounded p-1">
                                     <div class="border rounded text-center p-4">
                                         <i class="fa fa-users-cog fa-2x text-primary warna_kedua mb-2"></i>
-                                        <h2 class="mb-1" data-toggle="counter-up">30</h2>
-                                        <p class="mb-0">Staffs</p>
+                                        <h2 class="mb-1" data-toggle="counter-up">3</h2>
+                                        <p class="mb-0">Functional Hall</p>
                                     </div>
                                 </div>
                             </div>
@@ -352,11 +369,11 @@ transform: translateX(-50%);
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/kamar/standard_1.jpg')}}" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 198k / Malam</small>
+                                {{-- <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 80 / Malam</small> --}}
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Standard Suite</h5>
+                                    <h5 class="mb-0">Standard Room</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -366,8 +383,8 @@ transform: translateX(-50%);
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
                                 <p class="text-body mb-3">
@@ -377,7 +394,7 @@ transform: translateX(-50%);
                                 <li>Hot Shower</li>
                                 <li>Dan lain lain</li>
                                 </ul></p>
-                                <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 198.000 / Malam</p>
+                                <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 180.000 / Malam</p>
                                 <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
                                     <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" href="">Book Now <i class = "fa fa-calendar"></i> </a>
@@ -389,11 +406,11 @@ transform: translateX(-50%);
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/kamar/twin_1.jpg')}}" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua" >IDR 220k / Malam</small>
+                                {{-- <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua" >IDR 220k / Malam</small> --}}
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Superior Suite</h5>
+                                    <h5 class="mb-0">Superior Room</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -403,8 +420,8 @@ transform: translateX(-50%);
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
                                   <ul>
@@ -424,11 +441,11 @@ transform: translateX(-50%);
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/kamar/twin_1.jpg')}}" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 253k / Malam</small>
+                                {{-- <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 250k / Malam</small> --}}
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Superior + Suite</h5>
+                                    <h5 class="mb-0">Deluxe Room</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary "></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -438,8 +455,8 @@ transform: translateX(-50%);
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
                                  <p class="text-body mb-3">
@@ -448,7 +465,7 @@ transform: translateX(-50%);
                                 <li>Wardrobe</li>
                                 <li>Meja Rias</li>
                                 <li>Dan lain lain</li>
-                                </ul></p>                                    <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 253.000 / Malam</p>
+                                </ul></p>                                    <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 250.000 / Malam</p>
                               <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
                                     <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" href="">Book Now <i class = "fa fa-calendar"></i> </a>
@@ -456,52 +473,16 @@ transform: translateX(-50%);
                             </div>
                         </div>
                     </div>
-                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="room-item shadow rounded overflow-hidden">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('img/kamar/superior_plus_1.jpg')}}" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 297k / Malam</small>
-                            </div>
-                            <div class="p-4 mt-2">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Deluxe </h5>
-                                    <div class="ps-2">
-                                        <small class="fa fa-star text-primary "></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                    </div>
-                                </div>
-                                <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
-                                </div>
-                                <p class="text-body mb-3">
-                                <ul>
-                                <li>King Bed</li>
-                                <li>Wardrobe</li>
-                                <li>Single Sofa</li>
-                                <li>Dan lain lain</li>
-                                </ul></p> 
-                                <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 297.000 / Malam</p>
-                              <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
-                                    <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" href="">Book Now <i class = "fa fa-calendar"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                
                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/kamar/suite1.jpg')}}" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 528k / Malam</small>
+                                {{-- <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 510k / Malam</small> --}}
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Deluxe Suites </h5>
+                                    <h5 class="mb-0">Family Suites </h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary "></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -511,8 +492,8 @@ transform: translateX(-50%);
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
                                 <p class="text-body mb-3">
@@ -521,7 +502,7 @@ transform: translateX(-50%);
                                 <li>Dapur </li>
                                 <li>Meja Makan</li>
                                 <li>Dan lain lain</li>
-                                </ul></p>                                 <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 528.000 / Malam</p>
+                                </ul></p>                                 <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 510.000 / Malam</p>
                               <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
                                     <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" href="">Book Now <i class = "fa fa-calendar"></i> </a>
@@ -584,21 +565,22 @@ transform: translateX(-50%);
         <div class="container-xxl py-5" id = "thefacility">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    {{-- <h6 class="section-title text-center text-primary text-uppercase">Our Services</h6> --}}
-                    <h1 class="mb-5">Explore Our <span class="text-primary warna_utama text-uppercase">Services</span></h1>
+                    <h1 class="mb-2">Explore Our <span class="text-primary warna_utama text-uppercase">Services</span></h1>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                {{-- <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp"  data-wow-delay="0.1s">
                         <a class="service-item rounded" href="">
                             <div class="service-icon bg-transparent border rounded p-1">
-                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
-                                    <i class="fa fa-hotel fa-2x text-primary warna_kedua"></i>
-                                </div>
+
+                                
+                        
                             </div>
+                            <img class="img-fluid" src="{{asset('img/fasilities/facitilies1.jpg')}}" style = "height:200px;width:100%;" alt="">
+
                                <h5 class="mb-3">Live Seafood Restaurant</h5>
                          
                             <p class="text-body mb-0">rumah makan seafood berkualitas, menyajikan hidangan mulai dari ikan hidup seperti kerapu, kakap, gurami, kepiting, dan masih banyak lagi,  berada tepat di depan hotel, dengan akses pantai
-</p>
+                          </p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -611,7 +593,7 @@ transform: translateX(-50%);
                                <h5 class="mb-3">Akses Pantai</h5>
                        
                             <p class="text-body mb-0">1 menit dari hotel / restaurant menuju Beach Forest Situbondo
-</p>
+                            </p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -623,7 +605,7 @@ transform: translateX(-50%);
                             </div>
                             <h5 class="mb-3">Free Parking & Wifi</h5>
                             <p class="text-body mb-0">lahan parkir yang sangat luas, dan area hotel dengan akses wifi
-</p>
+                            </p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
@@ -645,9 +627,9 @@ transform: translateX(-50%);
                                 </div>
                             </div>
                               <h5 class="mb-3">Baluran National Park
-</h5>
+                            </h5>
                             <p class="text-body mb-0">Wisata alam yang sangat populer di Situbondo. Terkenal dengan ekosistem savana luas. Sering disebut “Africa van Java” cukup ditempuh 2 jam dari hotel 
-</p>
+                            </p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
@@ -659,10 +641,10 @@ transform: translateX(-50%);
                             </div>
                             <h5 class="mb-3">Grand Hall & Meeting Room</h5>
                             <p class="text-body mb-0">Memilik Hall yang sering dijadikan event seminar, workshop, pernikahan, dan acara lainnya
-</p>
+                            </p>
                         </a>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
         <!-- Service End -->
@@ -676,7 +658,7 @@ transform: translateX(-50%);
                 </div> --}}
                 <div class="row g-4">
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="rounded shadow overflow-hidden">
+                        <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:505px !important;" >
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/fasilities/facitilies1.jpg')}}" style = "height:200px;width:100%;" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
@@ -686,13 +668,13 @@ transform: translateX(-50%);
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Free parking & wifi</h5>
-                                <small>lahan parkir yang sangat luas, dan area hotel dengan akses wifi</small>
+                                <h5 class=" mb-0">Free parking & wifi</h5>
+                                <small><br>lahan parkir yang sangat luas, dan area hotel dengan akses wifi</small>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="rounded shadow overflow-hidden">
+                        <div class=" facilities-item rounded shadow overflow-hidden" style = "min-height:480px !important;" >
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/fasilities/facitilies2.jpg')}}" style = "height:200px;width:100%;" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
@@ -702,14 +684,14 @@ transform: translateX(-50%);
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">live seafood restaurant
+                                <h5 class=" mb-0">live seafood restaurant
 </h5>
-                                <small>rumah makan seafood berkualitas, menyajikan hidangan mulai dari ikan hidup seperti kerapu, kakap, gurami, kepiting, dan masih banyak lagi,  berada tepat di depan hotel, dengan akses pantai</small>
+                                <small><br>rumah makan seafood berkualitas, menyajikan hidangan mulai dari ikan hidup seperti kerapu, kakap, gurami, kepiting, dan masih banyak lagi,  berada tepat di depan hotel, dengan akses pantai</small>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="rounded shadow overflow-hidden">
+                        <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:505px !important;" >
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/fasilities/facitilies3.jpg')}}" style = "height:200px;width:100%;" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
@@ -719,14 +701,14 @@ transform: translateX(-50%);
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">akses pantai 
+                                <h5 class="fw-bold mb-0">Akses Pantai 
 </h5>
-                                <small>1 menit dari hotel / restaurant menuju Beach Forest Situbondo</small>
+                                <small><br>1 menit dari hotel / restaurant menuju Beach Forest Situbondo</small>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="rounded shadow overflow-hidden">
+                        <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:505px !important;" >
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/fasilities/facitilies4.jpg')}}" style = "height:200px;width:100%;" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
@@ -736,14 +718,14 @@ transform: translateX(-50%);
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Grand Hall & Meeting Room
+                                <h5 class=" mb-0">Grand Hall & Meeting Room
 </h5>
-                                <small>Memilik Hall yang sering dijadikan event seminar, workshop, pernikahan, dan acara lainnya</small>
+                                <small><br>Memilik Hall yang sering dijadikan event seminar, workshop, pernikahan, dan acara lainnya</small>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="rounded shadow overflow-hidden">
+                        <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:505px !important;" >
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/fasilities/facitilies5.jpg')}}" style = "height:200px;width:100%;" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
@@ -753,15 +735,15 @@ transform: translateX(-50%);
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Baluran National Park
+                                <h5 class=" mb-0">Baluran National Park
 
 </h5>
-                                <small>Wisata alam yang sangat populer di Situbondo. Terkenal dengan ekosistem savana luas. Sering disebut “Africa van Java” cukup ditempuh 2 jam dari hotel </small>
+                                <small><br>Wisata alam yang sangat populer di Situbondo. Terkenal dengan ekosistem savana luas. Sering disebut “Africa van Java” cukup ditempuh 2 jam dari hotel </small>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="rounded shadow overflow-hidden">
+                        <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:505px !important;" >
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/fasilities/facitilies6.jpg')}}" style = "height:200px;width:100%;" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
@@ -771,10 +753,10 @@ transform: translateX(-50%);
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Kampung Kerapu
+                                <h5 class="f mb-0 ">Kampung Kerapu
 
 </h5>
-                                <small>Designation</small>
+                                <small><br>Destinasi eko wisata di Situbondo yang berfokus pada pengembangbiakan dan konservasi ikan kerapu. Nikmati wahana air, jogging track, dermaga, dan budaya nelayan</small>
                             </div>
                         </div>
                     </div>
@@ -868,7 +850,7 @@ transform: translateX(-50%);
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <h6 class="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Alamat : Jl Raya Pasir Putih, Gundit, Klatakan, Kec. Kendit, Kab. Situbondo, Jawa Timur.68352</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jl Raya Pasir Putih, Gundit, Klatakan, Kec. Kendit, Kab. Situbondo, Jawa Timur.68352</p>
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>081-336-666-660</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>sansui.situbondo@gmail.com</p>
                         <div class="d-flex pt-2">
@@ -929,6 +911,41 @@ transform: translateX(-50%);
     </div>
 
  @include("support.footer")
+
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Show a second modal and hide this one with the button below.
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Hide this modal and show the first with the button below.
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+      </div>
+    </div>
+  </div>
+</div>
+{{-- <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a> --}}
+
  <script>
     var tabs = $('.tabs');
 var selector = $('.tabs').find('a').length;

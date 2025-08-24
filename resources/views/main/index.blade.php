@@ -519,7 +519,7 @@ transform: translateX(-50%);
                         <h1 class="display-3 text-white mb-4 animated slideInDown" style= "font-family: 'the_seasons_regular';font-size:40px;"> <span class = "seasons_italic">B</span>aramundi <span class = "seasons_italic">R</span>esto</h1>
 
                         <p class="text-white mb-4">Nikmati restaurant seafood kami di Barramundi Restaurant. Dengan akses ke pantai, menjadikan staycation anda lengkap dan kenyang.</p>
-                        <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Reservasi</a>
+                        <a href="https://wa.me/6281215866788?text=Saya mau tanya tanya untuk baramundi resto." target="_blank"  class="btn btn-primary py-md-3 px-md-5 me-3">Reservasi</a>
                         {{-- <a href="" class="btn btn-light py-md-3 px-md-5">Contact Admin</a> --}}
                     </div>
                 </div>

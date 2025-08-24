@@ -351,7 +351,7 @@ transform: translateX(-50%);
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/room-1.jpg" alt="">
+                                <img class="img-fluid" src="{{asset('img/kamar/standard_1.jpg')}}" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 198k / Malam</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -370,7 +370,13 @@ transform: translateX(-50%);
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">
+                                <ul>
+                                <li>King / Twin Bed</li>
+                                <li>Meja Rias</li>
+                                <li>Hot Shower</li>
+                                <li>Dan lain lain</li>
+                                </ul></p>
                                 <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 198.000 / Malam</p>
                                 <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
@@ -382,7 +388,7 @@ transform: translateX(-50%);
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/room-2.jpg" alt="">
+                                <img class="img-fluid" src="{{asset('img/kamar/twin_1.jpg')}}" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua" >IDR 220k / Malam</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -401,8 +407,12 @@ transform: translateX(-50%);
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                                <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 220.000 / Malam</p>
+                                  <ul>
+                                <li>Bed</li>
+                                <li>Meja Rias</li>
+                                <li>Hot Shower</li>
+                                <li>Dan lain lain</li>
+                                </ul></p>                             <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 220.000 / Malam</p>
                                <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
                                     <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" href="">Book Now <i class = "fa fa-calendar"></i> </a>
@@ -413,7 +423,7 @@ transform: translateX(-50%);
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/room-3.jpg" alt="">
+                                <img class="img-fluid" src="{{asset('img/kamar/twin_1.jpg')}}" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 253k / Malam</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -432,8 +442,13 @@ transform: translateX(-50%);
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                                <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 253.000 / Malam</p>
+                                 <p class="text-body mb-3">
+                                <ul>
+                                <li>Twin Bed</li>
+                                <li>Wardrobe</li>
+                                <li>Meja Rias</li>
+                                <li>Dan lain lain</li>
+                                </ul></p>                                    <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 253.000 / Malam</p>
                               <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
                                     <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" href="">Book Now <i class = "fa fa-calendar"></i> </a>
@@ -444,7 +459,7 @@ transform: translateX(-50%);
                      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/room-3.jpg" alt="">
+                                <img class="img-fluid" src="{{asset('img/kamar/superior_plus_1.jpg')}}" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 297k / Malam</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -463,7 +478,13 @@ transform: translateX(-50%);
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">
+                                <ul>
+                                <li>King Bed</li>
+                                <li>Wardrobe</li>
+                                <li>Single Sofa</li>
+                                <li>Dan lain lain</li>
+                                </ul></p> 
                                 <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 297.000 / Malam</p>
                               <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
@@ -475,7 +496,7 @@ transform: translateX(-50%);
                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/room-3.jpg" alt="">
+                                <img class="img-fluid" src="{{asset('img/kamar/suite1.jpg')}}" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 528k / Malam</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -494,8 +515,13 @@ transform: translateX(-50%);
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                                <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 528.000 / Malam</p>
+                                <p class="text-body mb-3">
+                                <ul>
+                                <li>2 Bedroom AC</li>
+                                <li>Dapur </li>
+                                <li>Meja Makan</li>
+                                <li>Dan lain lain</li>
+                                </ul></p>                                 <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 528.000 / Malam</p>
                               <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
                                     <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" href="">Book Now <i class = "fa fa-calendar"></i> </a>

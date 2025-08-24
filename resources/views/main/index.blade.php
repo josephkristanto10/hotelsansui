@@ -440,7 +440,7 @@ transform: translateX(-50%);
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('img/kamar/twin_1.jpg')}}" alt="">
+                                <img class="img-fluid" src="{{asset('img/kamar/deluxe.jpg')}}" alt="">
                                 {{-- <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 250k / Malam</small> --}}
                             </div>
                             <div class="p-4 mt-2">

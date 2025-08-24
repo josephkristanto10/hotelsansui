@@ -4,7 +4,7 @@
 <head>
     <style>
         
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto'); */
 
 
 h2{
@@ -92,9 +92,9 @@ transform: translateX(-50%);
 }
 
 /* ketika aktif, muncul */
-    #navs.show {
+    /* #navs.show {
       transform: translateY(0) !important;
-    }
+    } */
     </style>
 </head>
 
@@ -188,7 +188,18 @@ transform: translateX(-50%);
                         </div>
                     </div>
                     <div class="carousel-item" style = "margin-top:-120px;">
-                        <img class="w-100" src="img/carousel/carousel-13.jpg" alt="Image">
+                        <img class="w-100" src="img/carousel/carousel-3.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                             <div class="p-3" style="max-width: 700px;">
+                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">San Sui Hotel</h6>
+                                <h1 class="display-3 text-white mb-4 animated slideInDown" style= "font-family: 'the_seasons_regular';">Your <span class = "seasons_italic">S</span>anctuary of <span class = "seasons_italic">S</span>implicity</h1>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft " id = "togglenavbar2">Our Rooms</a>
+                                {{-- <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a> --}}
+                            </div>
+                        </div>
+                    </div>
+                     <div class="carousel-item" style = "margin-top:-120px;">
+                        <img class="w-100" src="img/carousel/carousel-4.jpg" alt="Image">
                         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                              <div class="p-3" style="max-width: 700px;">
                                 <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">San Sui Hotel</h6>
@@ -274,8 +285,8 @@ transform: translateX(-50%);
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
                         {{-- <h6 class="section-title text-start text-primary text-uppercase">About Us</h6> --}}
-                        <h1 class="mb-4 seasons_regular"><span class="seasons_italic">W</span>elcome at <br><span class="text-primary text-uppercase warna_utama" style = "font-size:60px;">San Sui </span> Hotel</h1>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <h1 class="mb-4 seasons_regular"><span class="seasons_italic">W</span>elcome to <br><span class="text-primary text-uppercase warna_utama" style = "font-size:60px;">San Sui </span> Hotel</h1>
+                        <p class="mb-4" style = "text-align:justify;">Menginap di San Sui Hotel akan memberikan pengalaman berbeda. Setelah sibuk dengan hiruk pikuk kota, Hotel San Sui adalah penginapan budget-friendly yang mengadirkan suasana yang tenang, udara sejuk, dan lokasi yang strategis di Raya Pasir Putih</p>
                         <div class="row g-3 pb-4">
                             <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
                                 <div class="border rounded p-1">
@@ -360,6 +371,7 @@ transform: translateX(-50%);
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
                                 <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 198.000 / Malam</p>
                                 <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
                                     <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" href="">Book Now <i class = "fa fa-calendar"></i> </a>
@@ -390,6 +402,7 @@ transform: translateX(-50%);
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
                                 <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 220.000 / Malam</p>
                                <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
                                     <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" href="">Book Now <i class = "fa fa-calendar"></i> </a>
@@ -420,6 +433,7 @@ transform: translateX(-50%);
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
                                 <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 253.000 / Malam</p>
                               <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
                                     <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" href="">Book Now <i class = "fa fa-calendar"></i> </a>
@@ -450,6 +464,7 @@ transform: translateX(-50%);
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
                                 <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 297.000 / Malam</p>
                               <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
                                     <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" href="">Book Now <i class = "fa fa-calendar"></i> </a>
@@ -480,6 +495,7 @@ transform: translateX(-50%);
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
                                 <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 528.000 / Malam</p>
                               <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" href="">View Detail</a>
                                     <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" href="">Book Now <i class = "fa fa-calendar"></i> </a>
@@ -502,17 +518,18 @@ transform: translateX(-50%);
                         {{-- <h1 class="text-white mb-4">Your Sanctuary of Simplicity</h1> --}}
                         <h1 class="display-3 text-white mb-4 animated slideInDown" style= "font-family: 'the_seasons_regular';font-size:40px;"> <span class = "seasons_italic">B</span>aramundi <span class = "seasons_italic">R</span>esto</h1>
 
-                        <p class="text-white mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <p class="text-white mb-4">Nikmati restaurant seafood kami di Barramundi Restaurant. Dengan akses ke pantai, menjadikan staycation anda lengkap dan kenyang.</p>
                         <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Reservasi</a>
                         {{-- <a href="" class="btn btn-light py-md-3 px-md-5">Contact Admin</a> --}}
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="video">
+                    {{-- <div class="video">
                         <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                             <span></span>
                         </button>
-                    </div>
+                    </div> --}}
+                    <img src = "{{asset('img/foto_resto/resto.jpg')}}" style = 'height:700px;width:100%;'>
                 </div>
             </div>
         </div>
@@ -554,7 +571,8 @@ transform: translateX(-50%);
                             </div>
                                <h5 class="mb-3">Live Seafood Restaurant</h5>
                          
-                            <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <p class="text-body mb-0">rumah makan seafood berkualitas, menyajikan hidangan mulai dari ikan hidup seperti kerapu, kakap, gurami, kepiting, dan masih banyak lagi,  berada tepat di depan hotel, dengan akses pantai
+</p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -566,7 +584,8 @@ transform: translateX(-50%);
                             </div>
                                <h5 class="mb-3">Akses Pantai</h5>
                        
-                            <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <p class="text-body mb-0">1 menit dari hotel / restaurant menuju Beach Forest Situbondo
+</p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -576,8 +595,9 @@ transform: translateX(-50%);
                                     <i class="fa fa-spa fa-2x text-primary warna_kedua"></i>
                                 </div>
                             </div>
-                            <h5 class="mb-3">Free Parking</h5>
-                            <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <h5 class="mb-3">Free Parking & Wifi</h5>
+                            <p class="text-body mb-0">lahan parkir yang sangat luas, dan area hotel dengan akses wifi
+</p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
@@ -587,8 +607,8 @@ transform: translateX(-50%);
                                     <i class="fa fa-wifi fa-2x text-primary warna_kedua"></i>
                                 </div>
                             </div>
-                            <h5 class="mb-3">Free Wifi</h5>
-                            <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <h5 class="mb-3">Kampung Kerapu</h5>
+                            <p class="text-body mb-0">Destinasi eko wisata di Situbondo yang berfokus pada pengembangbiakan dan konservasi ikan kearpu. Nikmati wahana air, jogging track, dermaga, dan budaya nelayan</p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -598,8 +618,10 @@ transform: translateX(-50%);
                                     <i class="fa fa-dumbbell fa-2x text-primary warna_kedua"></i>
                                 </div>
                             </div>
-                              <h5 class="mb-3">Fitness</h5>
-                            <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                              <h5 class="mb-3">Baluran National Park
+</h5>
+                            <p class="text-body mb-0">Wisata alam yang sangat populer di Situbondo. Terkenal dengan ekosistem savana luas. Sering disebut “Africa van Java” cukup ditempuh 2 jam dari hotel 
+</p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
@@ -609,14 +631,131 @@ transform: translateX(-50%);
                                     <i class="fa fa-suitcase fa-2x text-primary warna_kedua"></i>
                                 </div>
                             </div>
-                            <h5 class="mb-3">Hall - Meeting Room</h5>
-                            <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <h5 class="mb-3">Grand Hall & Meeting Room</h5>
+                            <p class="text-body mb-0">Memilik Hall yang sering dijadikan event seminar, workshop, pernikahan, dan acara lainnya
+</p>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Service End -->
+
+           <!-- Team Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                {{-- <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title text-center text-primary text-uppercase">Our Hotel</h6>
+                    <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Facilities</span></h1>
+                </div> --}}
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="rounded shadow overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="{{asset('img/fasilities/facitilies1.jpg')}}" style = "height:200px;width:100%;" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    {{-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> --}}
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Free parking & wifi</h5>
+                                <small>lahan parkir yang sangat luas, dan area hotel dengan akses wifi</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="rounded shadow overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="{{asset('img/fasilities/facitilies2.jpg')}}" style = "height:200px;width:100%;" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    {{-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> --}}
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">live seafood restaurant
+</h5>
+                                <small>rumah makan seafood berkualitas, menyajikan hidangan mulai dari ikan hidup seperti kerapu, kakap, gurami, kepiting, dan masih banyak lagi,  berada tepat di depan hotel, dengan akses pantai</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="rounded shadow overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="{{asset('img/fasilities/facitilies3.jpg')}}" style = "height:200px;width:100%;" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    {{-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> --}}
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">akses pantai 
+</h5>
+                                <small>1 menit dari hotel / restaurant menuju Beach Forest Situbondo</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="rounded shadow overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="{{asset('img/fasilities/facitilies4.jpg')}}" style = "height:200px;width:100%;" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    {{-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> --}}
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Grand Hall & Meeting Room
+</h5>
+                                <small>Memilik Hall yang sering dijadikan event seminar, workshop, pernikahan, dan acara lainnya</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="rounded shadow overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="{{asset('img/fasilities/facitilies5.jpg')}}" style = "height:200px;width:100%;" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    {{-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> --}}
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Baluran National Park
+
+</h5>
+                                <small>Wisata alam yang sangat populer di Situbondo. Terkenal dengan ekosistem savana luas. Sering disebut “Africa van Java” cukup ditempuh 2 jam dari hotel </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="rounded shadow overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="{{asset('img/fasilities/facitilies6.jpg')}}" style = "height:200px;width:100%;" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    {{-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> --}}
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Kampung Kerapu
+
+</h5>
+                                <small>Designation</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
 
 
         <!-- Testimonial Start -->
@@ -648,7 +787,7 @@ transform: translateX(-50%);
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
                         <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 45px; height: 45px;">
+                            <img class="img-fluid flex-shrink-0 rounded" src="" style="width: 45px; height: 45px;">
                             <div class="ps-3">
                                 <h6 class="fw-bold mb-1">Client Name</h6>
                                 <small>Profession</small>
@@ -659,86 +798,13 @@ transform: translateX(-50%);
                 </div>
             </div>
         </div>
+
+        
         
         <!-- Testimonial End -->
         <div class = "section_end" style = "margin-bottom:70px;">.</div>
 
-        <!-- Team Start -->
-        {{-- <div class="container-xxl py-5">
-            <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="section-title text-center text-primary text-uppercase">Our Team</h6>
-                    <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Staffs</span></h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="rounded shadow overflow-hidden">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/team-1.jpg" alt="">
-                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="rounded shadow overflow-hidden">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/team-2.jpg" alt="">
-                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="rounded shadow overflow-hidden">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/team-3.jpg" alt="">
-                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="rounded shadow overflow-hidden">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/team-4.jpg" alt="">
-                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
-        <!-- Team End -->
+     
 
 
         <!-- Newsletter Start -->
@@ -762,7 +828,7 @@ transform: translateX(-50%);
 
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-light footer wow fadeIn background_utama" id = "thefooter" data-wow-delay="0.1s">
-            <div class="container pb-5">
+            <div class="container pb-5" style = "font-size:0.9em;">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-4">
                         <div class="bg-primary rounded p-4" style = "background-color:transparent !important; text-align:center;">
@@ -774,36 +840,36 @@ transform: translateX(-50%);
 							</p> --}}
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-4">
                         <h6 class="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Alamat : Jl Raya Pasir Putih, Gundit, Klatakan, Kec. Kendit, Kab. Situbondo, Jawa Timur.68352</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>081-336-666-660</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>sansui.situbondo@gmail.com</p>
                         <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            {{-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> --}}
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-12">
+                    <div class="col-lg-4 col-md-12">
                         <div class="row gy-5 g-4">
                             <div class="col-md-6">
                                 <h6 class="section-title text-start text-primary text-uppercase mb-4">Company</h6>
-                                <a class="btn btn-link" href="">About Us</a>
-                                <a class="btn btn-link" href="">Contact Us</a>
-                                <a class="btn btn-link" href="">Privacy Policy</a>
-                                <a class="btn btn-link" href="">Terms & Condition</a>
-                                <a class="btn btn-link" href="">Support</a>
+                                <a class="btn btn-link" href="#thetops">Home</a>
+                                <a class="btn btn-link" href="#therooms">Kamar</a>
+                                <a class="btn btn-link" href="#thefacility">Fasilitas</a>
+                                <a class="btn btn-link" href="#theabout">Tentang Kami</a>
+                                <a class="btn btn-link" href="#thetops">Hubungi Kami</a>
                             </div>
-                            <div class="col-md-6">
+                            {{-- <div class="col-md-6">
                                 <h6 class="section-title text-start text-primary text-uppercase mb-4">Services</h6>
                                 <a class="btn btn-link" href="">Food & Restaurant</a>
                                 <a class="btn btn-link" href="">Spa & Fitness</a>
                                 <a class="btn btn-link" href="">Sports & Gaming</a>
                                 <a class="btn btn-link" href="">Event & Party</a>
                                 <a class="btn btn-link" href="">GYM & Yoga</a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -833,7 +899,7 @@ transform: translateX(-50%);
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top" style = "background:transparent;"> <img src = "{{asset('img/logo/logo_wa.png')}}" style = "width:75px;height:55px;"></a>
+        <a href="#" id = "logo_wa" class="btn btn-lg btn-primary btn-lg-square back-to-top" style = "background:transparent;"> <img src = "{{asset('img/logo/logo_wa.png')}}" style = "width:75px;height:55px;"></a>
     </div>
 
  @include("support.footer")
@@ -884,7 +950,20 @@ $(function () {
                 var jumlahanak = $("#jumlah_anak").val();
                 var message = "Halo San Sui Hotel, Saya dapatkan infonya dari website, saya mau cek untuk ketersediaan kamar pada tanggal *" + date1 + "* , check out tanggal *" + date2 + "*, Dengan Jumlah Dewasa *" + jumlahdewasa + "* orang, Jumlah anak anak *"+ jumlahanak + "* orang";
                 var wa_link = "https://wa.me/6281357610403?text="+message;
-                window.location.replace(wa_link);
+                 window.open(wa_link, '_blank');
+                // alert(wa_link);
+            });
+
+               $("#logo_wa").click(function (e) { 
+                e.preventDefault();
+                
+                var date1 = $("#text_date1").val();
+                var date2 = $("#text_date2").val();
+                var jumlahdewasa = $("#jumlah_dewasa").val();
+                var jumlahanak = $("#jumlah_anak").val();
+                var message = "Halo San Sui Hotel, Saya dapatkan infonya dari website, saya mau tanya tanya tentang hotelnya";
+                var wa_link = "https://wa.me/6281357610403?text="+message;
+                 window.open(wa_link, '_blank');
                 // alert(wa_link);
             });
 

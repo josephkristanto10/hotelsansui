@@ -2,18 +2,18 @@
       top: 0;
       left: 0;
       width: 100%;
-      padding: 15px;
+      padding: 7px;
       background: rgba(0,0,0,0.8);
-     
+      height:fit-content;
       text-align: center;
-      transform: translateY(-100%);
+     
       transition: transform 0.3s ease-in-out;
       z-index: 999;">
             <div class="row gx-0">
                 <div class="col-lg-3  d-none d-lg-block">
                     <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
                         {{-- <h1 class="m-0 text-primary text-uppercase">San Sui Hotel</h1> --}}
-                        <h1 class=" animated slideInDown" style= "font-size:30px; color:white;; font-family: 'the_seasons_regular';"><span class = "seasons_italic">S</span>an <span class = "seasons_italic">S</span>ui Hotel</h1> 
+                        <h1 class=" animated slideInDown" style= "font-size:30px; color:white;; font-family: 'the_seasons_regular';"><img src = "{{asset('img/logo/logo_header.png')}}" style = "height:70px;"></h1> 
                     </a>
                 </div>
                 <div class="col-lg-9">

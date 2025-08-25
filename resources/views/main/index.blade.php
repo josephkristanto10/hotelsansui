@@ -264,6 +264,27 @@ transform: translateX(-50%);
       }
     }
 
+    #carousels .owl-prev {
+    width: 45px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    margin-left: 20px;
+    display: block !important;
+    border:0px solid black;
+}
+
+#carousels .owl-next {
+    width: 45px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    right: 15px;
+    display: block !important;
+    border:0px solid black;
+}
+/* #carousels .owl-prev i, #carousels .owl-next i {transform : scale(1,6); color: #ccc;} */
+
 
     </style>
 </head>
@@ -1181,6 +1202,12 @@ $(".tabs").on("click","a",function(e){
         items:1,
         dots: false,
         loop: false,
+        nav:true,
+        navText: [
+            // '<i class="fa-duotone fa-solid fa-circle-chevron-right" style="--fa-primary-color: #525252; --fa-secondary-color: #ffffff;"></i>',
+            '<i class="fa-solid fa-circle-chevron-left" style = "color:white;font-size:30px;border-radius:70px;"></i>',
+            '<i class="fa-solid fa-circle-chevron-right" style = "color:white;font-size:30px;"></i>',
+        ],
         responsive: {
             0: {
                 items: 1,

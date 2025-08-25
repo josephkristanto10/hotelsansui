@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 54,
+            "activePatchIndex": 55,
             "patches": [
                 {
                     "date": 1755185293951,
@@ -224,6 +224,10 @@
                 {
                     "date": 1756023908296,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n             <div class=\"row gx-0\">\r\n                 <div class=\"col-lg-3  d-none d-lg-block\">\r\n                     <a href=\"index.html\" class=\"navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center\">\r\n                         {{-- <h1 class=\"m-0 text-primary text-uppercase\">San Sui Hotel</h1> --}}\r\n-                        <h1 class=\" animated slideInDown\" style= \"font-size:30px; color:white;; font-family: 'the_seasons_regular';\"><img src = \"{{asset('img/logo/logo_header.png')}}\" style = \"height:100px;\"></h1> \r\n+                        <h1 class=\" animated slideInDown\" style= \"font-size:30px; color:white;; font-family: 'the_seasons_regular';\"><img src = \"{{asset('img/logo/logo_header.png')}}\" style = \"height:70px;\"></h1> \r\n                     </a>\r\n                 </div>\r\n                 <div class=\"col-lg-9\">\r\n                    \r\n"
+                },
+                {
+                    "date": 1756103164525,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n       height:fit-content;\r\n       text-align: center;\r\n      \r\n       transition: transform 0.3s ease-in-out;\r\n-      z-index: 999;\">\r\n+      z-index: 999;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;\">\r\n             <div class=\"row gx-0\">\r\n                 <div class=\"col-lg-3  d-none d-lg-block\">\r\n                     <a href=\"index.html\" class=\"navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center\">\r\n                         {{-- <h1 class=\"m-0 text-primary text-uppercase\">San Sui Hotel</h1> --}}\r\n"
                 }
             ],
             "date": 1755185293951,

@@ -8,7 +8,7 @@
       text-align: center;
      
       transition: transform 0.3s ease-in-out;
-      z-index: 999;">
+      z-index: 999;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
             <div class="row gx-0">
                 <div class="col-lg-3  d-none d-lg-block">
                     <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">

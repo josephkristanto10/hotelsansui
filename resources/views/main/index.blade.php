@@ -501,8 +501,8 @@ transform: translateX(-50%);
                                 <div class="border rounded p-1">
                                     <div class="border rounded text-center p-4">
                                         <i class="fa fa-users fa-2x text-primary warna_kedua mb-2"></i>
-                                        <h2 class="mb-1" data-toggle="counter-up">10.000</h2>
-                                        <p class="mb-0">Clients</p>
+                                        <h2 class="mb-1">24/7</h2>
+                                        <p class="mb-0">Service</p>
                                     </div>
                                 </div>
                             </div>
@@ -561,7 +561,7 @@ transform: translateX(-50%);
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
                                     <small class="border-end me-3 pe-3"><i class="fa fa-shower text-primary me-2"></i>1 Bath</small>
                                       <small>
-                                     <i class="fa-solid fa-wind text-primary"></i> AC</small>
+                                     <img src = "{{asset('img/logo/logo_ac.png')}}" style = "width:20px;height:20px;">&nbsp; AC</small>
                                 </div>
                                 <p class="text-body mb-3">
                                 <ul>
@@ -600,7 +600,7 @@ transform: translateX(-50%);
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
                                     <small class="border-end me-3 pe-3"><i class="fa fa-shower text-primary me-2"></i>1 Bath</small>
                                   <small>
-                                       <i class="fa-solid fa-wind text-primary"></i> AC</small>
+                                     <img src = "{{asset('img/logo/logo_ac.png')}}" style = "width:20px;height:20px;">&nbsp; AC</small>
                                 </div>
                                   <ul>
                                 <li>Bed</li>
@@ -637,7 +637,7 @@ transform: translateX(-50%);
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
                                     <small class="border-end me-3 pe-3"><i class="fa fa-shower text-primary me-2"></i>1 Bath</small>
                                   <small>
-                                       <i class="fa-solid fa-wind text-primary"></i> AC</small>
+                                     <img src = "{{asset('img/logo/logo_ac.png')}}" style = "width:20px;height:20px;">&nbsp; AC</small>
                                 </div>
                                  <p class="text-body mb-3">
                                 <ul>
@@ -676,7 +676,7 @@ transform: translateX(-50%);
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
                                     <small class="border-end me-3 pe-3"><i class="fa fa-shower text-primary me-2"></i>1 Bath</small>
                                     <small>
-                                    <i class="fa-solid fa-wind text-primary"></i> AC</small>
+                                     <img src = "{{asset('img/logo/logo_ac.png')}}" style = "width:20px;height:20px;">&nbsp; AC</small>
                                 </div>
                                 <p class="text-body mb-3">
                                 <ul>

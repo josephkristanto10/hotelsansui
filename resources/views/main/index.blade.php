@@ -290,6 +290,7 @@ transform: translateX(-50%);
   border-radius: 50%;
   width: 120px;
   height: 120px;
+  margin: auto;
   animation: spin 2s linear infinite;
 }
 

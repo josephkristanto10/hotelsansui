@@ -284,7 +284,19 @@ transform: translateX(-50%);
     border:0px solid black;
 }
 /* #carousels .owl-prev i, #carousels .owl-next i {transform : scale(1,6); color: #ccc;} */
+.loaders {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
 
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 
     </style>
 </head>
@@ -543,7 +555,7 @@ transform: translateX(-50%);
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/kamar/standard_1.jpg')}}" alt="">
-                                <div onclick = "openPopup('standard')" style = "cursor:pointer;position:absolute; left:20px; bottom:20px;color:white;background-color:rgba(0, 0, 0, 0.521);padding:10px;border-radius:10px;"><i class="fa-solid fa-images"></i>1/<span id = "maksimal_foto_standard">2</span></div>
+                                <div onclick = "openPopup('standard')" style = "cursor:pointer;position:absolute; left:20px; bottom:20px;color:white;background-color:rgba(0, 0, 0, 0.521);padding:10px;border-radius:10px;"><i class="fa-solid fa-images"></i>1/<span id = "maksimal_foto_standard">3</span></div>
                                 {{-- <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 80 / Malam</small> --}}
                             </div>
                             <div class="p-4 mt-2">
@@ -658,7 +670,7 @@ transform: translateX(-50%);
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/kamar/suite1.jpg')}}" alt="">
-                                <div onclick = "openPopup('family')" style = "cursor:pointer;position:absolute; left:20px; bottom:20px;color:white;background-color:rgba(0, 0, 0, 0.521);padding:10px;border-radius:10px;"><i class="fa-solid fa-images"></i>1/<span id = "maksimal_foto_family">2</span></div>
+                                <div onclick = "openPopup('family')" style = "cursor:pointer;position:absolute; left:20px; bottom:20px;color:white;background-color:rgba(0, 0, 0, 0.521);padding:10px;border-radius:10px;"><i class="fa-solid fa-images"></i>1/<span id = "maksimal_foto_family">5</span></div>
                                 {{-- <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 510k / Malam</small> --}}
                             </div>
                             <div class="p-4 mt-2">
@@ -1081,14 +1093,7 @@ transform: translateX(-50%);
                                 <a class="btn btn-link" href="#theabout">Tentang Kami</a>
                                 <a class="btn btn-link" href="#thetops">Hubungi Kami</a>
                             </div>
-                            {{-- <div class="col-md-6">
-                                <h6 class="section-title text-start text-primary text-uppercase mb-4">Services</h6>
-                                <a class="btn btn-link" href="">Food & Restaurant</a>
-                                <a class="btn btn-link" href="">Spa & Fitness</a>
-                                <a class="btn btn-link" href="">Sports & Gaming</a>
-                                <a class="btn btn-link" href="">Event & Party</a>
-                                <a class="btn btn-link" href="">GYM & Yoga</a>
-                            </div> --}}
+
                         </div>
                     </div>
                 </div>
@@ -1098,9 +1103,7 @@ transform: translateX(-50%);
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                             &copy; <a class="border-bottom" href="#">San Sui Hotel</a>, All Right Reserved. 
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							{{-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> --}}
+
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
@@ -1133,11 +1136,8 @@ transform: translateX(-50%);
   <div class="overlay" id="overlay">
     <div class="popup">
       <div class="popup-header">
-        <div class="owl-carousel" id = "carousels">
-            
-                       <div class="item"><img class="w-100" src="{{asset('img/kamar/standard_1.jpg')}}" alt="Image" ></div>
-                
-                        <div class="item"><img class="w-100" src="{{asset('img/kamar/twin_1.jpg')}}" alt="Image" ></div>
+         <div class="loaders"></div> 
+        <div class="owl-carousel" id = "carousels" style = "display:none;">
         </div>
         <button class="close-btn" onclick="closePopup()">&times;</button>
       </div>
@@ -1171,28 +1171,35 @@ let currentIndex = 0;
     var hargasuperior = "IDR 220.000";
     var hargadeluxe = "IDR 250.000";
     var hargafamily = "IDR 510.000";
+    var gambar = "{{ asset('img/kamar/standard/2.jpg') }}";
+
+    var semuakamarstandard = '<div class="item"><img class="w-100" src="{{asset("img/kamar/standard/1.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/standard/2.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/standard/3.jpg")}}" alt="Image" ></div>';
+    var semuakamarsuperior = '<div class="item"><img class="w-100" src="{{asset("img/kamar/superior/1.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/superior/2.jpg")}}" alt="Image" ></div>';
+    var semuakamardeluxe = '<div class="item"><img class="w-100" src="{{asset("img/kamar/deluxe/1.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/deluxe/2.jpg")}}" alt="Image" ></div>';
+    var semuakamarfamily = '<div class="item"><img class="w-100" src="{{asset("img/kamar/family/1.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/2.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/3.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/4.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/5.jpg")}}" alt="Image" ></div>';
+
 
     var tabs = $('.tabs');
-var selector = $('.tabs').find('a').length;
-//var selector = $(".tabs").find(".selector");
-var activeItem = tabs.find('.active');
-var activeWidth = activeItem.innerWidth();
-$(".selector").css({
-  "left": activeItem.position.left + "px", 
-  "width": activeWidth + "px"
-});
+    var selector = $('.tabs').find('a').length;
+    var activeItem = tabs.find('.active');
+    var activeWidth = activeItem.innerWidth();
 
-$(".tabs").on("click","a",function(e){
-  e.preventDefault();
-  $('.tabs a').removeClass("active");
-  $(this).addClass('active');
-  var activeWidth = $(this).innerWidth();
-  var itemPos = $(this).position();
-  $(".selector").css({
-    "left":itemPos.left + "px", 
+    $(".selector").css({
+    "left": activeItem.position.left + "px", 
     "width": activeWidth + "px"
-  });
-});
+    });
+
+    $(".tabs").on("click","a",function(e){
+    e.preventDefault();
+    $('.tabs a').removeClass("active");
+    $(this).addClass('active');
+    var activeWidth = $(this).innerWidth();
+    var itemPos = $(this).position();
+    $(".selector").css({
+        "left":itemPos.left + "px", 
+        "width": activeWidth + "px"
+    });
+    });
 
  // kamar carousel
     $("#carousels").owlCarousel({
@@ -1293,12 +1300,21 @@ function pesan(type_kamar){
 
 var jenis_pesan_kamar = "";
 function openPopup(type_kamar) {
+    
+    $("#carousels").css("display","none");
+    $(".loaders").css("display","block");
+       document.getElementById("overlay").style.display = "flex";
     if(type_kamar == "standard"){
         $("#fasilitas_modal").html("");
         $("#fasilitas_modal").html(globalstandard);
         $("#judul_modal_detail_kamar").html("Standard Room");
         $("#harga_modal_detail_kamar").html(hargastandard + " / Malam");
         jenis_pesan_kamar = "Standard Room";
+        
+        $('#carousels').owlCarousel('destroy'); 
+        $("#carousels").html(semuakamarstandard);
+       
+      
     }
     else if(type_kamar == "superior"){
         $("#fasilitas_modal").html("");
@@ -1306,6 +1322,9 @@ function openPopup(type_kamar) {
         $("#judul_modal_detail_kamar").html("Superior Room");
         $("#harga_modal_detail_kamar").html(hargasuperior + " / Malam");
          jenis_pesan_kamar = "Superior Room";
+       
+        $('#carousels').owlCarousel('destroy');
+        $("#carousels").html(semuakamarsuperior);
     }
     else if(type_kamar == "deluxe"){
         $("#fasilitas_modal").html("");
@@ -1313,6 +1332,9 @@ function openPopup(type_kamar) {
         $("#judul_modal_detail_kamar").html("Deluxe Room");
         $("#harga_modal_detail_kamar").html(hargadeluxe + " / Malam");
          jenis_pesan_kamar = "Deluxe Room";
+      
+        $('#carousels').owlCarousel('destroy');
+        $("#carousels").html(semuakamardeluxe);
     }
      else if(type_kamar == "family"){
         $("#fasilitas_modal").html("");
@@ -1320,10 +1342,56 @@ function openPopup(type_kamar) {
         $("#judul_modal_detail_kamar").html("Family Room");
         $("#harga_modal_detail_kamar").html(hargafamily + " / Malam");
          jenis_pesan_kamar = "Family Room";
+    
+       
+        $('#carousels').owlCarousel('destroy'); 
+        $("#carousels").html(semuakamarfamily);
     }
-      document.getElementById("overlay").style.display = "flex";
+
+
+           $("#carousels").owlCarousel({
+            autoplay: true,
+            smartSpeed: 1000,
+            margin: 25,
+            items:1,
+            dots: false,
+            loop: false,
+            nav:true,
+            navText: [
+                // '<i class="fa-duotone fa-solid fa-circle-chevron-right" style="--fa-primary-color: #525252; --fa-secondary-color: #ffffff;"></i>',
+                '<i class="fa-solid fa-circle-chevron-left" style = "color:white;font-size:30px;border-radius:70px;"></i>',
+                '<i class="fa-solid fa-circle-chevron-right" style = "color:white;font-size:30px;"></i>',
+            ],
+            onInitialized: function(event) {
+                 
+                  
+                    setTimeout(function() {
+                      $(".loaders").css("display","none");
+                      $("#carousels").css("display","block");
+                   
+
+                    }, 1000);
+                   
+                // alert("test");
+                // Your code to execute after initialization
+                // console.log('Owl Carousel initialized!');
+                // Example: Add a class to a specific element
+                // $('.my-element').addClass('carousel-loaded');
+            },
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                768: {
+                    items: 1,
+                },
+            },
+        });
+     
       
     }
+
+    
     $("#pesan_modal_detail_kamar").click(function (e) { 
         e.preventDefault();
         pesan(jenis_pesan_kamar);

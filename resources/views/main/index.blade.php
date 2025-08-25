@@ -522,6 +522,7 @@ transform: translateX(-50%);
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/kamar/standard_1.jpg')}}" alt="">
+                                <div onclick = "openPopup('standard')" style = "cursor:pointer;position:absolute; left:20px; bottom:20px;color:white;background-color:rgba(0, 0, 0, 0.521);padding:10px;border-radius:10px;"><i class="fa-solid fa-images"></i>1/<span id = "maksimal_foto_standard">2</span></div>
                                 {{-- <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 80 / Malam</small> --}}
                             </div>
                             <div class="p-4 mt-2">
@@ -537,8 +538,9 @@ transform: translateX(-50%);
                                 </div>
                                 <div class="d-flex mb-3">
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
-                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-shower text-primary me-2"></i>1 Bath</small>
+                                      <small>
+                                     <i class="fa-solid fa-wind text-primary"></i> AC</small>
                                 </div>
                                 <p class="text-body mb-3">
                                 <ul>
@@ -559,6 +561,7 @@ transform: translateX(-50%);
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/kamar/twin_1.jpg')}}" alt="">
+                                <div onclick = "openPopup('superior')" style = "cursor:pointer;position:absolute; left:20px; bottom:20px;color:white;background-color:rgba(0, 0, 0, 0.521);padding:10px;border-radius:10px;"><i class="fa-solid fa-images"></i>1/<span id = "maksimal_foto_superior">2</span></div>
                                 {{-- <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua" >IDR 220k / Malam</small> --}}
                             </div>
                             <div class="p-4 mt-2">
@@ -574,8 +577,9 @@ transform: translateX(-50%);
                                 </div>
                                 <div class="d-flex mb-3">
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
-                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-shower text-primary me-2"></i>1 Bath</small>
+                                  <small>
+                                       <i class="fa-solid fa-wind text-primary"></i> AC</small>
                                 </div>
                                   <ul>
                                 <li>Bed</li>
@@ -594,6 +598,7 @@ transform: translateX(-50%);
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/kamar/deluxe.jpg')}}" alt="">
+                                <div onclick = "openPopup('deluxe')" style = "cursor:pointer;position:absolute; left:20px; bottom:20px;color:white;background-color:rgba(0, 0, 0, 0.521);padding:10px;border-radius:10px;"><i class="fa-solid fa-images"></i>1/<span id = "maksimal_foto_deluxe">2</span></div>
                                 {{-- <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 250k / Malam</small> --}}
                             </div>
                             <div class="p-4 mt-2">
@@ -609,8 +614,9 @@ transform: translateX(-50%);
                                 </div>
                                 <div class="d-flex mb-3">
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
-                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-shower text-primary me-2"></i>1 Bath</small>
+                                  <small>
+                                       <i class="fa-solid fa-wind text-primary"></i> AC</small>
                                 </div>
                                  <p class="text-body mb-3">
                                 <ul>
@@ -631,6 +637,7 @@ transform: translateX(-50%);
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/kamar/suite1.jpg')}}" alt="">
+                                <div onclick = "openPopup('family')" style = "cursor:pointer;position:absolute; left:20px; bottom:20px;color:white;background-color:rgba(0, 0, 0, 0.521);padding:10px;border-radius:10px;"><i class="fa-solid fa-images"></i>1/<span id = "maksimal_foto_family">2</span></div>
                                 {{-- <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 510k / Malam</small> --}}
                             </div>
                             <div class="p-4 mt-2">
@@ -646,8 +653,9 @@ transform: translateX(-50%);
                                 </div>
                                 <div class="d-flex mb-3">
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
-                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-shower text-primary me-2"></i>1 Bath</small>
+                                    <small>
+                                    <i class="fa-solid fa-wind text-primary"></i> AC</small>
                                 </div>
                                 <p class="text-body mb-3">
                                 <ul>
@@ -689,7 +697,7 @@ transform: translateX(-50%);
                             <span></span>
                         </button>
                     </div> --}}
-                    <img src = "{{asset('img/foto_resto/resto.jpg')}}" style = 'height:700px;width:100%;'>
+                    <img src = "{{asset('img/foto_resto/resto.jpg')}}" style = 'height:500px;width:100%;'>
                 </div>
             </div>
         </div>
@@ -811,7 +819,7 @@ transform: translateX(-50%);
                 </div> --}}
                 <div class="row g-4">
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:505px !important;" >
+                     <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:530px !important;" >
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/fasilities/facitilies1.jpg')}}" style = "height:200px;width:100%;" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
@@ -821,13 +829,13 @@ transform: translateX(-50%);
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class=" mb-0">Free parking & wifi</h5>
-                                <small><br>lahan parkir yang sangat luas, dan area hotel dengan akses wifi</small>
+                                <h5 class=" mb-0">Free Parking & Wifi</h5>
+                                <small><br>Lahan parkir yang sangat luas, dan area hotel dengan akses wifi</small>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class=" facilities-item rounded shadow overflow-hidden" style = "min-height:480px !important;" >
+                         <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:530px !important;" >
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/fasilities/facitilies2.jpg')}}" style = "height:200px;width:100%;" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
@@ -837,14 +845,14 @@ transform: translateX(-50%);
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class=" mb-0">live seafood restaurant
+                                <h5 class=" mb-0">Live Seafood Restaurant
 </h5>
-                                <small><br>rumah makan seafood berkualitas, menyajikan hidangan mulai dari ikan hidup seperti kerapu, kakap, gurami, kepiting, dan masih banyak lagi,  berada tepat di depan hotel, dengan akses pantai</small>
+                                <small><br>Rumah makan seafood berkualitas, menyajikan hidangan mulai dari ikan hidup seperti kerapu, kakap, gurami, kepiting, dan masih banyak lagi,  berada tepat di depan hotel, dengan akses pantai</small>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:505px !important;" >
+                     <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:530px !important;" >
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/fasilities/facitilies3.jpg')}}" style = "height:200px;width:100%;" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
@@ -861,7 +869,7 @@ transform: translateX(-50%);
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:505px !important;" >
+                  <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:530px !important;" >
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/fasilities/facitilies4.jpg')}}" style = "height:200px;width:100%;" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
@@ -878,7 +886,7 @@ transform: translateX(-50%);
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:505px !important;" >
+                    <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:530px !important;" >
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/fasilities/facitilies5.jpg')}}" style = "height:200px;width:100%;" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
@@ -896,7 +904,7 @@ transform: translateX(-50%);
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:505px !important;" >
+                      <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:530px !important;" >
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/fasilities/facitilies6.jpg')}}" style = "height:200px;width:100%;" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
@@ -910,6 +918,42 @@ transform: translateX(-50%);
 
 </h5>
                                 <small><br>Destinasi eko wisata di Situbondo yang berfokus pada pengembangbiakan dan konservasi ikan kerapu. Nikmati wahana air, jogging track, dermaga, dan budaya nelayan</small>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                      <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:530px !important;" >
+                            <div class="position-relative">
+                                <img class="img-fluid" src="{{asset('img/fasilities/facitilies7.jpg')}}" style = "height:200px;width:100%;" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    {{-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> --}}
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="f mb-0 ">Taman Kota Situbondo
+
+</h5>
+                                <small><br>Ruang publik terbuka yang luas dan ramai, banyak penjual makan dan minuman serta permainan seperti naik kuda, dan lain-lain. Terletak di pusat kota sehingga dekat dengan berbagi cafe, dan toko-toko cukup di tempuh kurang lebih 15 menit.</small>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="facilities-item rounded shadow overflow-hidden" style = "min-height:530px !important;" >
+                            <div class="position-relative">
+                                <img class="img-fluid" src="{{asset('img/fasilities/facitilies8.jpg')}}" style = "height:200px;width:100%;" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    {{-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> --}}
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="f mb-0 ">Kampung Blekok
+
+</h5>
+                                <small><br>Kampung Blekok adalah tempat ekowisata baru di Situbondo yang hanya berjarak 6 menit dari Hotel. Tidak hanya laut yang indah, hijau mangrove yang menjadi habitat burung air disini menjadi sorotan.</small>
                             </div>
                         </div>
                     </div>

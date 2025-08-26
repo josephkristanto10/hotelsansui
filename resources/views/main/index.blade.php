@@ -299,12 +299,16 @@ transform: translateX(-50%);
   100% { transform: rotate(360deg); }
 }
 
+.skiptranslate{
+    display:"none" !important;
+}
+
     </style>
 </head>
 
 
  
-<body>
+<body id = "body_index">
         <div class="container-fluid bg-dark px-0" style = "position:fixed; display:none;">
             <div class="row gx-0">
                 <div class="col-lg-3 bg-dark d-none d-lg-block">
@@ -377,7 +381,7 @@ transform: translateX(-50%);
         <!-- Header End -->
 
         <!-- Carousel Start -->
-        <div class="container-fluid p-0 mb-5" style = "z-index:7;" id = "thetops">
+        <div class="container-fluid p-0 mb-5 notranslate" style = "z-index:7;" id = "thetops">
             <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" style = "margin-top:-120px;">
@@ -1127,7 +1131,7 @@ transform: translateX(-50%);
 
  @include("support.footer")
 
-
+<div id="google_translate_element" style="display:none"></div>
 {{-- <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a> --}}
 
 
@@ -1160,6 +1164,7 @@ transform: translateX(-50%);
     </div>
   </div>
 
+<div id="google_translate_element" style="display:none"></div>
 
 
  <script>
@@ -1179,6 +1184,7 @@ let currentIndex = 0;
     var semuakamardeluxe = '<div class="item"><img class="w-100" src="{{asset("img/kamar/deluxe/1.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/deluxe/2.jpg")}}" alt="Image" ></div>';
     var semuakamarfamily = '<div class="item"><img class="w-100" src="{{asset("img/kamar/family/1.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/2.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/3.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/4.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/5.jpg")}}" alt="Image" ></div>';
 
+    
 
     var tabs = $('.tabs');
     var selector = $('.tabs').find('a').length;
@@ -1413,4 +1419,82 @@ function openPopup(type_kamar) {
     function nextSlide() { showSlide(currentIndex + 1); }
     function prevSlide() { showSlide(currentIndex - 1); }
     
+
+    
+
  </script>
+<script type="text/javascript">
+var bahasa = "id";
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement(
+    {
+      pageLanguage: 'id',                 // bahasa default halaman
+      includedLanguages: 'en,id,ja,fr',   // bahasa yang bisa dipakai
+      autoDisplay: false
+    },
+    'google_translate_element'
+  );
+
+  // tunggu sebentar lalu auto translate ke English
+ 
+}
+$(document).ready(function () {
+    //   $("iframe.goog-te-banner-frame").css("display","none");
+  setTimeout(function() {
+            $("iframe.goog-te-banner-frame").css("display","none");
+            $(".skiptranslate").css("display","none");
+            $("body").css("top","0");
+        }, 1500);
+});
+function gantibahasaclick(){
+ var select = document.querySelector(".goog-te-combo");
+    if (select) {
+        if (bahasa === "id") {
+            select.value = "en";   // translate ke English
+            bahasa = "en";
+        } else {
+            select.value = "id";   // balik ke Indonesia
+            bahasa = "id";
+        }
+        select.dispatchEvent(new Event("change"));
+
+        // setelah translate, hilangkan bar & elemen bawaan
+        setTimeout(function() {
+            $("iframe.goog-te-banner-frame").css("display","none");
+            $(".skiptranslate").css("display","none");
+            $("body").css("top","0");
+        }, 1500);
+    }
+  
+}
+$("#gantibahasa").click(function (e) { 
+    // e.preventDefault();
+//      new google.translate.TranslateElement(
+//     {
+//       pageLanguage: 'id',                 // bahasa default halaman
+//       includedLanguages: 'en,id,ja,fr',   // bahasa yang bisa dipakai
+//       autoDisplay: false
+//     },
+//     'google_translate_element'
+//   );
+
+//       setTimeout(function(){
+//     var select = document.querySelector(".goog-te-combo");
+//     if (select) {
+//         if(bahasa == "id"){
+//           select.value = "en"; // target English
+//           bahasa = "en";
+//         }
+//         else{
+//           select.value = "id"; // target English
+//             bahasa = "id";
+//         }
+
+//       select.dispatchEvent(new Event("change"));
+//     }
+//   }, 1000); // delay 1 detik agar widget siap
+      
+});
+</script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>

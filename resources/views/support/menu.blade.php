@@ -40,6 +40,7 @@
                                     </div>
                                 </div> --}}
                                 <a href="#thefooter" class="nav-item nav-link">Hubungi Kami</a>
+                                   <a  class="nav-item nav-link notranslate" id = "gantibahasa" onclick = "gantibahasaclick()" >EN / IND</a>
                             </div>
                             {{-- <a href="https://htmlcodex.com/hotel-html-template-pro" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Premium Version<i class="fa fa-arrow-right ms-3"></i></a> --}}
                         </div>

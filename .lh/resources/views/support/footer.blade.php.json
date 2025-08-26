@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1755099544154,
@@ -24,6 +24,14 @@
                 {
                     "date": 1755182118829,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,17 @@\n+   <!-- JavaScript Libraries -->\r\n+    <script src=\"{{asset('js/jquery-3.4.1.min.js')}}\"></script>\r\n+    <script src=\"{{asset('js/bootstrap.bundle.min.js')}}\"></script>\r\n+    <script src=\"{{asset('lib/wow/wow.min.js')}}\"></script>\r\n+    <script src=\"{{asset('lib/easing/easing.min.js')}}\"></script>\r\n+    <script src=\"{{asset('lib/waypoints/waypoints.min.js')}}\"></script>\r\n+    <script src=\"{{asset('lib/counterup/counterup.min.js')}}\"></script>\r\n+    <script src=\"{{asset('lib/owlcarousel/owl.carousel.min.js')}}\"></script>\r\n+    <script src=\"{{asset('lib/tempusdominus/js/moment.min.js')}}\"></script>\r\n+    <script src=\"{{asset('lib/tempusdominus/js/moment-timezone.min.js')}}\"></script>\r\n+    <script src=\"{{asset('lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js')}}\"></script>\r\n+\r\n+    <!-- Template Javascript -->\r\n+    <script src=\"{{asset('js/main.js')}}\"></script>\r\n+</body>\r\n+\r\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756183709338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,44 +8,12 @@\n     <script src=\"{{asset('lib/owlcarousel/owl.carousel.min.js')}}\"></script>\r\n     <script src=\"{{asset('lib/tempusdominus/js/moment.min.js')}}\"></script>\r\n     <script src=\"{{asset('lib/tempusdominus/js/moment-timezone.min.js')}}\"></script>\r\n     <script src=\"{{asset('lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js')}}\"></script>\r\n+        \r\n \r\n     <!-- Template Javascript -->\r\n     <script src=\"{{asset('js/main.js')}}\"></script>\r\n+    <script src=\"{{asset('js/jquery.translate.js')}}\"></script>\r\n </body>\r\n \r\n-</html>\n-   <!-- JavaScript Libraries -->\r\n-    <script src=\"{{asset('js/jquery-3.4.1.min.js')}}\"></script>\r\n-    <script src=\"{{asset('js/bootstrap.bundle.min.js')}}\"></script>\r\n-    <script src=\"{{asset('lib/wow/wow.min.js')}}\"></script>\r\n-    <script src=\"{{asset('lib/easing/easing.min.js')}}\"></script>\r\n-    <script src=\"{{asset('lib/waypoints/waypoints.min.js')}}\"></script>\r\n-    <script src=\"{{asset('lib/counterup/counterup.min.js')}}\"></script>\r\n-    <script src=\"{{asset('lib/owlcarousel/owl.carousel.min.js')}}\"></script>\r\n-    <script src=\"{{asset('lib/tempusdominus/js/moment.min.js')}}\"></script>\r\n-    <script src=\"{{asset('lib/tempusdominus/js/moment-timezone.min.js')}}\"></script>\r\n-    <script src=\"{{asset('lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js')}}\"></script>\r\n-\r\n-    <!-- Template Javascript -->\r\n-    <script src=\"js/main.js\"></script>\r\n-</body>\r\n-\r\n-</html>\n-   <!-- JavaScript Libraries -->\r\n-    <script src=\"https://code.jquery.com/jquery-3.4.1.min.js\"></script>\r\n-    <script src=\"{{asset('js/bootstrap.bundle.min.js')}}\"></script>\r\n-    <script src=\"{{asset('lib/wow/wow.min.js')}}\"></script>\r\n-    <script src=\"{{asset('lib/easing/easing.min.js')}}\"></script>\r\n-    <script src=\"{{asset('lib/waypoints/waypoints.min.js')}}\"></script>\r\n-    <script src=\"{{asset('lib/counterup/counterup.min.js')}}\"></script>\r\n-    <script src=\"{{asset('lib/owlcarousel/owl.carousel.min.js')}}\"></script>\r\n-    <script src=\"{{asset('lib/tempusdominus/js/moment.min.js')}}\"></script>\r\n-    <script src=\"{{asset('lib/tempusdominus/js/moment-timezone.min.js')}}\"></script>\r\n-    <script src=\"{{asset('lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js')}}\"></script>\r\n-\r\n-    <!-- Template Javascript -->\r\n-    <script src=\"js/main.js\"></script>\r\n-</body>\r\n-\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756183723526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,7 +13,8 @@\n \r\n     <!-- Template Javascript -->\r\n     <script src=\"{{asset('js/main.js')}}\"></script>\r\n     <script src=\"{{asset('js/jquery.translate.js')}}\"></script>\r\n+    \r\n </body>\r\n \r\n </html>\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1755099544154,

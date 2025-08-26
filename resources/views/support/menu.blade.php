@@ -27,7 +27,7 @@
                         </button>
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                             <div class="navbar-nav mr-auto py-0" style="margin-left: auto;">
-                                <a href="#thetops" class="nav-item nav-link  active notranslate">Home</a>
+                                <a href="#thetops" class="nav-item nav-link  notranslate">Home</a>
                                 <a href="#therooms" class="nav-item nav-link notranslate">Rooms</a>
                                 <a href="#thefacility" class="nav-item nav-link notranslate">Facility</a>
                                 <a href="#theabout" class="nav-item nav-link notranslate">About Us</a>

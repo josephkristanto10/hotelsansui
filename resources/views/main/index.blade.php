@@ -1003,37 +1003,59 @@ transform: translateX(-50%);
 
         <!-- Testimonial Start -->
         <div class="container-xxl testimonial my-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s">
+            <h1 style = "text-align:center;color:white;">Our Guest Says</h1>
             <div class="container">
                 <div class="owl-carousel testimonial-carousel py-5">
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                        <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos</p>
+                        <p>Sangat nyaman, bersih, kamar ukuran besar. Depan hotel langsung pantai. Dan hotel ini mempunyai restoran yang berada 100 meter dari hotel. Rokemended untuk semua aneka olahan ikan bakarnya. Very nice hotel in Pasir Putih Situbondo</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg" style="width: 45px; height: 45px;">
+                            <img class="img-fluid flex-shrink-0 rounded" src="{{asset('img/testimonial-2.jpg')}}" style="width: 45px; height: 45px;">
                             <div class="ps-3">
-                                <h6 class="fw-bold mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 class="fw-bold mb-1">T*** </h6>
+                                <small>San Sui Hotel Guest</small>
                             </div>
                         </div>
                         <i class="fa fa-quote-right fa-3x text-primary warna_kedua position-absolute end-0 bottom-0 me-4 mb-n1"></i>
                     </div>
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                        <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos</p>
+                        <p>Hotel yang sudah berdiri sejak tahun 1997.
+                        Area hotel sangat luas dengan ciri khas bangunan hotel tahun 90an.
+                        Didepan hotel terdapat pantai yang cukup bersih & bening. Dibelakang hotel terdapat bukit yang membuat udara sekitar hotel sejuk.
+                        Kalau beruntung, bisa melihat koleksi lukisan pemilik hotel yang dipajang di ruang restoran.
+                        Untuk deluxe & suite room ukurannya besar, jadi cukup nyaman, tapi jadul sih tetap saja.
+                        Kalau pesan di aplikasi bisa dapat kamar deluxe harga kisaran Rp 150.000an.</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
+                            <img class="img-fluid flex-shrink-0 rounded" src="{{asset('img/testimonial-2.jpg')}}" style="width: 45px; height: 45px;">
                             <div class="ps-3">
-                                <h6 class="fw-bold mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 class="fw-bold mb-1">Zu****</h6>
+                           <small>San Sui Hotel Guest</small>
                             </div>
                         </div>
                         <i class="fa fa-quote-right fa-3x text-primary warna_kedua position-absolute end-0 bottom-0 me-4 mb-n1"></i>
                     </div>
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                        <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos</p>
+                        <p>Hotel yang cukup nyaman, meskipun tampak bangunan kuno, kamar luas, bersih, estetik, nyaman, kamar mandi luas juga bersih tersedia air panas utk tipe deluxe, AC super dingin, ada TV kecil, wifi lancar, resepsionis ramah, harga cukup murah melalui aplikasi, worth it nginap disini.</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded" src="" style="width: 45px; height: 45px;">
+                  
+                                                        <img class="img-fluid flex-shrink-0 rounded" src="{{asset('img/testimonial-2.jpg')}}" style="width: 45px; height: 45px;">
+
                             <div class="ps-3">
-                                <h6 class="fw-bold mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                
+                                <h6 class="fw-bold mb-1">EN****</h6>
+                                <small>San Sui Hotel Guest</small>
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary warna_kedua position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p>Hotel San Sui adalah hotel yang sangat bagus dengan lokasi yang strategis di dekat pusat kota. Hotel ini memiliki kamar-kamar yang luas dan nyaman, serta pelayanan yang sangat baik. Saya sangat puas dengan pengalaman menginap saya di Hotel San Sui..</p>
+                        <div class="d-flex align-items-center">
+                                               <img class="img-fluid flex-shrink-0 rounded" src="{{asset('img/testimonial-2.jpg')}}" style="width: 45px; height: 45px;">
+
+                            
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">RA***</h6>
+                                <small>San Sui Hotel Guest</small>
                             </div>
                         </div>
                         <i class="fa fa-quote-right fa-3x text-primary warna_kedua position-absolute end-0 bottom-0 me-4 mb-n1"></i>

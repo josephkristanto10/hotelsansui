@@ -27,10 +27,10 @@
                         </button>
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                             <div class="navbar-nav mr-auto py-0" style="margin-left: auto;">
-                                <a href="#thetops" class="nav-item nav-link active">Home</a>
-                                <a href="#therooms" class="nav-item nav-link">Rooms</a>
-                                <a href="#thefacility" class="nav-item nav-link">Facility</a>
-                                <a href="#theabout" class="nav-item nav-link">About Us</a>
+                                <a href="#thetops" class="nav-item nav-link notranslate active">Home</a>
+                                <a href="#therooms" class="nav-item nav-link notranslate">Rooms</a>
+                                <a href="#thefacility" class="nav-item nav-link notranslate">Facility</a>
+                                <a href="#theabout" class="nav-item nav-link notranslate">About Us</a>
                                 {{-- <div class="nav-item dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                                     <div class="dropdown-menu rounded-0 m-0">

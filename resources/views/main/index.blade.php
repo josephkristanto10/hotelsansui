@@ -584,7 +584,7 @@ transform: translateX(-50%);
                                 <ul>
                                 <li>King / Twin Bed</li>
                                 <li>Meja Rias</li>
-                                <li>Hot Shower</li>
+                                <li>Shower</li>
                                 <li>Dan lain lain</li>
                                 </ul></p>
                                 <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 180.000 / Malam</p>
@@ -624,7 +624,7 @@ transform: translateX(-50%);
                                 <li>Meja Rias</li>
                                 <li>Hot Shower</li>
                                 <li>Dan lain lain</li>
-                                </ul></p>                             <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 220.000 / Malam</p>
+                                </ul></p>                             <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 200.000 / Malam</p>
                                <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" onclick = "openPopup('superior')" >View Detail</a>
                                     <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" onclick = "pesan('Superior Room')">Book Now <i class = "fa fa-calendar"></i> </a>
@@ -662,7 +662,7 @@ transform: translateX(-50%);
                                 <li>Wardrobe</li>
                                 <li>Meja Rias</li>
                                 <li>Dan lain lain</li>
-                                </ul></p>                                    <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 250.000 / Malam</p>
+                                </ul></p>                                    <p style = "width:100%; text-align:right; font-size:1.2em; color:#1e1e1e !important;">IDR 225.000 / Malam</p>
                               <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm  rounded py-2 px-4" style = "color:black;text-decoration:underline;" onclick = "openPopup('deluxe')" >View Detail</a>
                                     <a class="btn btn-sm  rounded btn-dark py-2 px-4" style = "border:0px;border-radius : 20px !important;" onclick = "pesan('Deluxe Room')">Book Now <i class = "fa fa-calendar"></i> </a>
@@ -725,7 +725,7 @@ transform: translateX(-50%);
                         <h1 class="display-3 text-white mb-4 animated slideInDown" style= "font-family: 'the_seasons_regular';font-size:40px;"> <span class = "seasons_italic">B</span>aramundi <span class = "seasons_italic">R</span>esto</h1>
 
                         <p class="text-white mb-4">Nikmati restaurant seafood kami di Barramundi Restaurant. Dengan akses ke pantai, menjadikan staycation anda lengkap dan kenyang.</p>
-                        <a href="https://wa.me/6281215866788?text=Saya mau tanya tanya untuk baramundi resto." target="_blank"  class="btn btn-primary py-md-3 px-md-5 me-3">Reservasi</a>
+                        <a href="https://wa.me/6281336666660?text=Saya mau tanya tanya untuk baramundi resto." target="_blank"  class="btn btn-primary py-md-3 px-md-5 me-3">Reservasi</a>
                         {{-- <a href="" class="btn btn-light py-md-3 px-md-5">Contact Admin</a> --}}
                     </div>
                 </div>
@@ -1090,13 +1090,14 @@ transform: translateX(-50%);
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="row gy-5 g-4">
-                            <div class="col-md-6">
-                                <h6 class="section-title text-start text-primary text-uppercase mb-4">Company</h6>
-                                <a class="btn btn-link" href="#thetops">Home</a>
+                            <div class="col-md-12">
+                                <h6 class="section-title text-start text-primary text-uppercase mb-4">Our Hotel</h6>
+                                {{-- <a class="btn btn-link" href="#thetops">Home</a>
                                 <a class="btn btn-link" href="#therooms">Kamar</a>
                                 <a class="btn btn-link" href="#thefacility">Fasilitas</a>
                                 <a class="btn btn-link" href="#theabout">Tentang Kami</a>
-                                <a class="btn btn-link" href="#thetops">Hubungi Kami</a>
+                                <a class="btn btn-link" href="#thetops">Hubungi Kami</a> --}}
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.913206286222!2d113.88807539999999!3d-7.692463699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd72402c3c3b35f%3A0x9dd315d6b42a7233!2sHotel%20San%20Sui!5e0!3m2!1sid!2sid!4v1756214303315!5m2!1sid!2sid" style = "width:100%;height:300px;"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
 
                         </div>
@@ -1170,9 +1171,9 @@ transform: translateX(-50%);
  <script>
 let currentIndex = 0;
     var globalstandard = '<div class = "facility">King / Twin bed</div><div class = "facility">Meja Rias</div><div class = "facility">Toilet</div><div class = "facility">Shower</div><div class = "facility">Ac</div><div class = "facility">32m2</div><br><br>';
-    var globalsuperior = '<div class = "facility">Twin bed</div><div class = "facility">Meja Rias</div><div class = "facility">Toilet</div><div class = "facility">Shower</div><div class = "facility">Ac</div><div class = "facility">32m2</div><div class = "facility"> + Wardrobe</div><br><br>';
+    var globalsuperior = '<div class = "facility">Twin bed</div><div class = "facility">Meja Rias</div><div class = "facility">Toilet</div><div class = "facility">Hot Shower</div><div class = "facility">Ac</div><div class = "facility">32m2</div><div class = "facility"> + Wardrobe</div><div class = "facility"> + Kulkas</div><div class = "facility"> + TV</div><br><br>';
     var globaldeluxe = '<div class = "facility">King bed</div><div class = "facility">Meja Rias</div><div class = "facility">Toilet</div><div class = "facility">Shower</div><div class = "facility">Ac</div><div class = "facility">32m2</div><div class = "facility"> + Wardrobe</div><div class = "facility"> + Single Sofa</div><div class = "facility"> + Kulkas</div><div class = "facility"> + TV</div><br><br>';
-    var globalfamily = '<div class = "facility">2 Bedroom AC </div><div class = "facility">Meja Rias</div><div class = "facility">Toilet</div><div class = "facility">Shower</div><div class = "facility">Ac</div><div class = "facility">32m2</div><div class = "facility"> + Wardrobe</div><div class = "facility"> + Single Sofa</div><div class = "facility"> + Kulkas</div><div class = "facility"> + TV</div><div class = "facility"> + Meja Makan</div><br><br>';
+    var globalfamily = '<div class = "facility">2 Bedroom AC </div><div class = "facility">Meja Rias</div><div class = "facility">Toilet</div><div class = "facility">Hot Shower</div><div class = "facility">Ac</div><div class = "facility"> + Wardrobe</div><div class = "facility"> + Long Sofa</div><div class = "facility"> + Kulkas</div><div class = "facility"> + TV</div><div class = "facility"> + Meja Makan</div><br><br>';
     var hargastandard = "IDR 180.000";
     var hargasuperior = "IDR 220.000";
     var hargadeluxe = "IDR 250.000";
@@ -1255,7 +1256,7 @@ $(function () {
                 var jumlahdewasa = $("#jumlah_dewasa").val();
                 var jumlahanak = $("#jumlah_anak").val();
                 var message = "Halo San Sui Hotel, Saya dapatkan infonya dari website, saya mau cek untuk ketersediaan kamar pada tanggal *" + date1 + "* , check out tanggal *" + date2 + "*, Dengan Jumlah Dewasa *" + jumlahdewasa + "* orang, Jumlah anak anak *"+ jumlahanak + "* orang";
-                var wa_link = "https://wa.me/6281357610403?text="+message;
+                var wa_link = "https://wa.me/6281336666660?text="+message;
                  window.open(wa_link, '_blank');
                 // alert(wa_link);
             });
@@ -1268,7 +1269,7 @@ $(function () {
                 var jumlahdewasa = $("#jumlah_dewasa").val();
                 var jumlahanak = $("#jumlah_anak").val();
                 var message = "Halo San Sui Hotel, Saya dapatkan infonya dari website, saya mau tanya tanya tentang hotelnya";
-                var wa_link = "https://wa.me/6281357610403?text="+message;
+                var wa_link = "https://wa.me/6281336666660?text="+message;
                  window.open(wa_link, '_blank');
                 // alert(wa_link);
             });
@@ -1301,7 +1302,7 @@ $(function () {
 
 function pesan(type_kamar){
       var message = "Halo San Sui Hotel, saya mau tanya tentang Kamar *"+type_kamar+"*" ;
-      var wa_link = "https://wa.me/6281357610403?text="+message;
+      var wa_link = "https://wa.me/6281336666660?text="+message;
       window.open(wa_link, '_blank');
 }
 
@@ -1425,6 +1426,26 @@ function openPopup(type_kamar) {
  </script>
 <script type="text/javascript">
 var bahasa = "id";
+    // Dictionary custom
+    var dictionary = {
+        "Home": "Beranda",
+        "Rooms": "Kamar"
+        
+    };
+
+    // Fungsi apply dictionary
+    function applyDictionary() {
+        var elements = document.querySelectorAll("body *:not(script):not(style):not(noscript)");
+
+        elements.forEach(function(el) {
+            if (el.childNodes.length === 1 && el.childNodes[0].nodeType === 3) { // hanya text node
+                let text = el.textContent.trim();
+                if (dictionary[text]) {
+                    el.textContent = dictionary[text];
+                }
+            }
+        });
+    }
 function googleTranslateElementInit() {
   new google.translate.TranslateElement(
     {
@@ -1463,6 +1484,7 @@ function gantibahasaclick(){
             $("iframe.goog-te-banner-frame").css("display","none");
             $(".skiptranslate").css("display","none");
             $("body").css("top","0");
+             applyDictionary();
         }, 1500);
     }
   

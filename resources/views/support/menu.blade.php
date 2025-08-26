@@ -28,9 +28,9 @@
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                             <div class="navbar-nav mr-auto py-0" style="margin-left: auto;">
                                 <a href="#thetops" class="nav-item nav-link active">Home</a>
-                                <a href="#therooms" class="nav-item nav-link">Kamar</a>
-                                <a href="#thefacility" class="nav-item nav-link">Fasilitas</a>
-                                <a href="#theabout" class="nav-item nav-link">Tentang Kami</a>
+                                <a href="#therooms" class="nav-item nav-link">Rooms</a>
+                                <a href="#thefacility" class="nav-item nav-link">Facility</a>
+                                <a href="#theabout" class="nav-item nav-link">About Us</a>
                                 {{-- <div class="nav-item dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                                     <div class="dropdown-menu rounded-0 m-0">
@@ -39,7 +39,7 @@
                                         <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                                     </div>
                                 </div> --}}
-                                <a href="#thefooter" class="nav-item nav-link">Hubungi Kami</a>
+                                <a href="#thefooter" class="nav-item nav-link">Contact Us</a>
                                    <a  class="nav-item nav-link notranslate" id = "gantibahasa" onclick = "gantibahasaclick()" >EN / IND</a>
                             </div>
                             {{-- <a href="https://htmlcodex.com/hotel-html-template-pro" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Premium Version<i class="fa fa-arrow-right ms-3"></i></a> --}}

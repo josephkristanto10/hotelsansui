@@ -1009,7 +1009,7 @@ transform: translateX(-50%);
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
                         <p>Sangat nyaman, bersih, kamar ukuran besar. Depan hotel langsung pantai. Dan hotel ini mempunyai restoran yang berada 100 meter dari hotel. Rokemended untuk semua aneka olahan ikan bakarnya. Very nice hotel in Pasir Putih Situbondo</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded" src="{{asset('img/testimonial-2.jpg')}}" style="width: 45px; height: 45px;">
+                            <img class="img-fluid flex-shrink-0 rounded" src="{{asset('img/logo/pp1.png')}}" style="width: 45px; height: 45px;">
                             <div class="ps-3">
                                 <h6 class="fw-bold mb-1">T*** </h6>
                                 <small>San Sui Hotel Guest</small>
@@ -1025,7 +1025,7 @@ transform: translateX(-50%);
                         Untuk deluxe & suite room ukurannya besar, jadi cukup nyaman, tapi jadul sih tetap saja.
                         Kalau pesan di aplikasi bisa dapat kamar deluxe harga kisaran Rp 150.000an.</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded" src="{{asset('img/testimonial-2.jpg')}}" style="width: 45px; height: 45px;">
+                            <img class="img-fluid flex-shrink-0 rounded" src="{{asset('img/logo/pp2.png')}}"style="width: 45px; height: 45px;">
                             <div class="ps-3">
                                 <h6 class="fw-bold mb-1">Zu****</h6>
                            <small>San Sui Hotel Guest</small>
@@ -1037,7 +1037,7 @@ transform: translateX(-50%);
                         <p>Hotel yang cukup nyaman, meskipun tampak bangunan kuno, kamar luas, bersih, estetik, nyaman, kamar mandi luas juga bersih tersedia air panas utk tipe deluxe, AC super dingin, ada TV kecil, wifi lancar, resepsionis ramah, harga cukup murah melalui aplikasi, worth it nginap disini.</p>
                         <div class="d-flex align-items-center">
                   
-                                                        <img class="img-fluid flex-shrink-0 rounded" src="{{asset('img/testimonial-2.jpg')}}" style="width: 45px; height: 45px;">
+                                                        <img class="img-fluid flex-shrink-0 rounded" src="{{asset('img/logo/pp3.png')}}" style="width: 45px; height: 45px;">
 
                             <div class="ps-3">
                                 
@@ -1050,7 +1050,7 @@ transform: translateX(-50%);
                      <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
                         <p>Hotel San Sui adalah hotel yang sangat bagus dengan lokasi yang strategis di dekat pusat kota. Hotel ini memiliki kamar-kamar yang luas dan nyaman, serta pelayanan yang sangat baik. Saya sangat puas dengan pengalaman menginap saya di Hotel San Sui..</p>
                         <div class="d-flex align-items-center">
-                                               <img class="img-fluid flex-shrink-0 rounded" src="{{asset('img/testimonial-2.jpg')}}" style="width: 45px; height: 45px;">
+                                               <img class="img-fluid flex-shrink-0 rounded" src="{{asset('img/logo/pp4.png')}}" style="width: 45px; height: 45px;">
 
                             
                             <div class="ps-3">
@@ -1195,10 +1195,10 @@ let currentIndex = 0;
     var globalstandard = '<div class = "facility">King / Twin bed</div><div class = "facility">Meja Rias</div><div class = "facility">Toilet</div><div class = "facility">Shower</div><div class = "facility">Ac</div><div class = "facility">32m2</div><br><br>';
     var globalsuperior = '<div class = "facility">Twin bed</div><div class = "facility">Meja Rias</div><div class = "facility">Toilet</div><div class = "facility">Hot Shower</div><div class = "facility">Ac</div><div class = "facility">32m2</div><div class = "facility"> + Wardrobe</div><div class = "facility"> + Kulkas</div><div class = "facility"> + TV</div><br><br>';
     var globaldeluxe = '<div class = "facility">King bed</div><div class = "facility">Meja Rias</div><div class = "facility">Toilet</div><div class = "facility">Shower</div><div class = "facility">Ac</div><div class = "facility">32m2</div><div class = "facility"> + Wardrobe</div><div class = "facility"> + Single Sofa</div><div class = "facility"> + Kulkas</div><div class = "facility"> + TV</div><br><br>';
-    var globalfamily = '<div class = "facility">2 Bedroom AC </div><div class = "facility">Meja Rias</div><div class = "facility">Toilet</div><div class = "facility">Hot Shower</div><div class = "facility">Ac</div><div class = "facility"> + Wardrobe</div><div class = "facility"> + Long Sofa</div><div class = "facility"> + Kulkas</div><div class = "facility"> + TV</div><div class = "facility"> + Meja Makan</div><br><br>';
+    var globalfamily = '<div class = "facility">2 Bedroom AC </div><div class = "facility">Meja Rias</div><div class = "facility">Toilet</div><div class = "facility">Hot Shower</div><div class = "facility">Ac</div><div class = "facility"> + Wardrobe</div><div class = "facility"> + Long Sofa</div><div class = "facility"> + Kulkas</div><div class = "facility"> + TV</div><div class = "facility"> + Meja Makan</div><div class = "facility"> + Ruang Tamu</div><br><br>';
     var hargastandard = "IDR 180.000";
-    var hargasuperior = "IDR 220.000";
-    var hargadeluxe = "IDR 250.000";
+    var hargasuperior = "IDR 200.000";
+    var hargadeluxe = "IDR 225.000";
     var hargafamily = "IDR 510.000";
     var gambar = "{{ asset('img/kamar/standard/2.jpg') }}";
 

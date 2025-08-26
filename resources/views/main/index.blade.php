@@ -303,6 +303,11 @@ transform: translateX(-50%);
     display:"none" !important;
 }
 
+.testimonial {
+  background: linear-gradient(rgba(15, 23, 43, .7), rgba(15, 23, 43, .7)), url("{{asset('img/testi/testi.jpg')}}");
+  background-size: contain;
+}
+
     </style>
 </head>
 

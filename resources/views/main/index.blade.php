@@ -1427,25 +1427,25 @@ function openPopup(type_kamar) {
 <script type="text/javascript">
 var bahasa = "id";
     // Dictionary custom
-    var dictionary = {
-        "Home": "Beranda",
-        "Rooms": "Kamar"
+    // var dictionary = {
+    //     "Home": "Beranda",
+    //     "Rooms": "Kamar"
         
-    };
+    // };
 
     // Fungsi apply dictionary
-    function applyDictionary() {
-        var elements = document.querySelectorAll("body *:not(script):not(style):not(noscript)");
+    // function applyDictionary() {
+    //     var elements = document.querySelectorAll("body *:not(script):not(style):not(noscript)");
 
-        elements.forEach(function(el) {
-            if (el.childNodes.length === 1 && el.childNodes[0].nodeType === 3) { // hanya text node
-                let text = el.textContent.trim();
-                if (dictionary[text]) {
-                    el.textContent = dictionary[text];
-                }
-            }
-        });
-    }
+    //     elements.forEach(function(el) {
+    //         if (el.childNodes.length === 1 && el.childNodes[0].nodeType === 3) { // hanya text node
+    //             let text = el.textContent.trim();
+    //             if (dictionary[text]) {
+    //                 el.textContent = dictionary[text];
+    //             }
+    //         }
+    //     });
+    // }
 function googleTranslateElementInit() {
   new google.translate.TranslateElement(
     {
@@ -1484,7 +1484,7 @@ function gantibahasaclick(){
             $("iframe.goog-te-banner-frame").css("display","none");
             $(".skiptranslate").css("display","none");
             $("body").css("top","0");
-             applyDictionary();
+            //  applyDictionary();
         }, 1500);
     }
   

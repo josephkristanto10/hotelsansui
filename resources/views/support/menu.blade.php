@@ -20,9 +20,9 @@
                    
                     <nav class="navbar navbar-expand-lg  navbar-dark p-3 p-lg-0">
                         <a href="index.html" class="navbar-brand d-block d-lg-none">
-                            <h1 class="m-0 text-primary text-uppercase">Hotelier</h1>
+                        <h1 class=" animated slideInDown" style= "font-size:30px; color:white;; font-family: 'the_seasons_regular';"><img src = "{{asset('img/logo/logo_header.png')}}" style = "height: 60px;width: 160px;"></h1> 
                         </a>
-                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" style = "margin-right:20px;">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">

@@ -641,7 +641,7 @@ transform: translateX(-50%);
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/kamar/twin_1.jpg')}}" alt="">
-                                <div onclick = "openPopup('superior')" style = "cursor:pointer;position:absolute; left:20px; bottom:20px;color:white;background-color:rgba(0, 0, 0, 0.521);padding:10px;border-radius:10px;"><i class="fa-solid fa-images"></i>1/<span id = "maksimal_foto_superior">2</span></div>
+                                <div onclick = "openPopup('superior')" style = "cursor:pointer;position:absolute; left:20px; bottom:20px;color:white;background-color:rgba(0, 0, 0, 0.521);padding:10px;border-radius:10px;"><i class="fa-solid fa-images"></i>1/<span id = "maksimal_foto_superior">3</span></div>
                                 {{-- <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua" >IDR 220k / Malam</small> --}}
                             </div>
                             <div class="p-4 mt-2">
@@ -678,7 +678,7 @@ transform: translateX(-50%);
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/kamar/deluxe.jpg')}}" alt="">
-                                <div onclick = "openPopup('deluxe')" style = "cursor:pointer;position:absolute; left:20px; bottom:20px;color:white;background-color:rgba(0, 0, 0, 0.521);padding:10px;border-radius:10px;"><i class="fa-solid fa-images"></i>1/<span id = "maksimal_foto_deluxe">2</span></div>
+                                <div onclick = "openPopup('deluxe')" style = "cursor:pointer;position:absolute; left:20px; bottom:20px;color:white;background-color:rgba(0, 0, 0, 0.521);padding:10px;border-radius:10px;"><i class="fa-solid fa-images"></i>1/<span id = "maksimal_foto_deluxe">3</span></div>
                                 {{-- <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 250k / Malam</small> --}}
                             </div>
                             <div class="p-4 mt-2">
@@ -717,7 +717,7 @@ transform: translateX(-50%);
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{asset('img/kamar/suite1.jpg')}}" alt="">
-                                <div onclick = "openPopup('family')" style = "cursor:pointer;position:absolute; left:20px; bottom:20px;color:white;background-color:rgba(0, 0, 0, 0.521);padding:10px;border-radius:10px;"><i class="fa-solid fa-images"></i>1/<span id = "maksimal_foto_family">5</span></div>
+                                <div onclick = "openPopup('family')" style = "cursor:pointer;position:absolute; left:20px; bottom:20px;color:white;background-color:rgba(0, 0, 0, 0.521);padding:10px;border-radius:10px;"><i class="fa-solid fa-images"></i>1/<span id = "maksimal_foto_family">7</span></div>
                                 {{-- <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4 background_kedua">IDR 510k / Malam</small> --}}
                             </div>
                             <div class="p-4 mt-2">
@@ -1245,9 +1245,9 @@ let currentIndex = 0;
     var gambar = "{{ asset('img/kamar/standard/2.jpg') }}";
 
     var semuakamarstandard = '<div class="item"><img class="w-100" src="{{asset("img/kamar/standard/1.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/standard/2.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/standard/3.jpg")}}" alt="Image" ></div>';
-    var semuakamarsuperior = '<div class="item"><img class="w-100" src="{{asset("img/kamar/superior/1.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/superior/2.jpg")}}" alt="Image" ></div>';
-    var semuakamardeluxe = '<div class="item"><img class="w-100" src="{{asset("img/kamar/deluxe/1.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/deluxe/2.jpg")}}" alt="Image" ></div>';
-    var semuakamarfamily = '<div class="item"><img class="w-100" src="{{asset("img/kamar/family/1.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/2.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/3.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/4.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/5.jpg")}}" alt="Image" ></div>';
+    var semuakamarsuperior = '<div class="item"><img class="w-100" src="{{asset("img/kamar/superior/1.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/superior/2.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/superior/3.jpg")}}" alt="Image" ></div>';
+    var semuakamardeluxe = '<div class="item"><img class="w-100" src="{{asset("img/kamar/deluxe/1.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/deluxe/2.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/deluxe/3.jpg")}}" alt="Image" ></div>';
+    var semuakamarfamily = '<div class="item"><img class="w-100" src="{{asset("img/kamar/family/1.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/2.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/3.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/4.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/5.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/6.jpg")}}" alt="Image" ></div><div class="item"><img class="w-100" src="{{asset("img/kamar/family/7.jpg")}}" alt="Image" ></div>';
 
     
 

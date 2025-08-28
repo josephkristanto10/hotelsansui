@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-lg-9">
                    
-                    <nav class="navbar navbar-expand-lg  navbar-dark p-3 p-lg-0">
+                    <nav class="navbar navbar-expand-lg  navbar-dark p-3 p-lg-0" style = "background-color: #a6833d !important;">
                         <a href="index.html" class="navbar-brand d-block d-lg-none">
                         <h1 class=" animated slideInDown" style= "font-size:30px; color:white;; font-family: 'the_seasons_regular';"><img src = "{{asset('img/logo/logo_header.png')}}" style = "height: 60px;width: 160px;"></h1> 
                         </a>
